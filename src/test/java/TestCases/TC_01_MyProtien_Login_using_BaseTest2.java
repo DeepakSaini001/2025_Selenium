@@ -30,7 +30,7 @@ public class TC_01_MyProtien_Login_using_BaseTest2 extends BaseTest {
 
 		HomePagePopUp homePage = new HomePagePopUp(getDriver()).navigateToURL();
 
-		log.info("Login test passed successfully.");
+		log.info("Login test passed successfully. :)");
 
 	}
 
