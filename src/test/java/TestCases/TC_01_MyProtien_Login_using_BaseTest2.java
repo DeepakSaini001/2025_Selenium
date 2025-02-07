@@ -47,7 +47,7 @@ public class TC_01_MyProtien_Login_using_BaseTest2 extends BaseTest {
 	public void Direct_Search() {
 		HomePagePopUp signUp = new HomePagePopUp(getDriver()).navigateToURL();
 	
-		log.info("Direct_Search.");
+		log.info("Direct_Search. ");
 
 	}
 
