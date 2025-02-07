@@ -90,3 +90,4 @@
 2025-02-07 14:51:39,022 [main] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
 2025-02-07 14:51:39,027 [main] INFO org.utils.LogUtils - Login test passed successfully.
 2025-02-07 14:51:39,162 [main] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: loginIntoApplication_using_Credintails
+2025-02-07 18:38:48,955 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
