@@ -45,7 +45,7 @@ public class TC_01_MyProtien_Login_using_BaseTest extends BaseTest {
 				"Product not found in the cart!");
 		
 		test.pass("Login test passed successfully.");
-        log.info("Login test passed successfully.");
+		log.info("loginIntoApplication_using_Credintails.");
 
 	}
 
@@ -58,6 +58,7 @@ public class TC_01_MyProtien_Login_using_BaseTest extends BaseTest {
 				.clickOnRegisterButton().enterFullName(username).enterEmail(username + "@gmail.com")
 				.enterConfirmEmail(username + "@gmail.com").enterpassword(username).enterConfirmpassword(username);
 		HomePage homePage = signUp.clickOnContinueButton();
+		log.info("signUPIntoApplication_using_Registration.");
 
 	}
 
@@ -66,7 +67,7 @@ public class TC_01_MyProtien_Login_using_BaseTest extends BaseTest {
 		test = report.createTest("Direct_Search");
 		HomePagePopUp signUp = new HomePagePopUp(getDriver()).navigateToURL();
 		test.pass("Login test passed successfully.");
-        log.info("Login test passed successfully.");
+        log.info("Direct_Search.");
 
 	}
 
