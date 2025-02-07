@@ -30,7 +30,7 @@ public class TC_01_MyProtien_Login_using_BaseTest2 extends BaseTest {
 
 		HomePagePopUp homePage = new HomePagePopUp(getDriver()).navigateToURL();
 
-		log.info("Login test passed successfully. :)");
+		log.info("loginIntoApplication_using_Credintails ");
 
 	}
 
@@ -39,7 +39,7 @@ public class TC_01_MyProtien_Login_using_BaseTest2 extends BaseTest {
 
 		HomePagePopUp signUp = new HomePagePopUp(getDriver()).navigateToURL();
 
-		log.info("Login test passed successfully.");
+		log.info("signUPIntoApplication_using_Registration.");
 
 	}
 
@@ -47,7 +47,7 @@ public class TC_01_MyProtien_Login_using_BaseTest2 extends BaseTest {
 	public void Direct_Search() {
 		HomePagePopUp signUp = new HomePagePopUp(getDriver()).navigateToURL();
 	
-		log.info("Login test passed successfully.");
+		log.info("Direct_Search.");
 
 	}
 
