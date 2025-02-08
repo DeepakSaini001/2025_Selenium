@@ -19,7 +19,7 @@ public class dummy extends BaseTest {
 	public void loginIntoApplication(String username, String password) {
 
 		HomePage homePage = new HomePagePopUp(getDriver()).navigateToURL().verifyCookiesAndPopUp().clickOnAccount()
-				.enterEmailId("deepaksn987@gmail.com").enterPassword("Flipkart.com@21").clickOnSignIn();
+				.enterEmailId(username).enterPassword(password).clickOnSignIn();
 	}
 
 }
