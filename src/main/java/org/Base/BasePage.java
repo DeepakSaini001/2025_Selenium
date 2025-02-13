@@ -1,6 +1,7 @@
 package org.Base;
 
 import java.time.Duration;
+import java.util.Set;
 
 import org.Listeners.Test_Listener;
 import org.apache.log4j.Logger;
@@ -17,13 +18,13 @@ import com.aventstack.extentreports.Status;
 
 public class BasePage {
 
-	protected WebDriver driver; // these are the instance variable which is non static
+	protected WebDriver driver; // these are the instance variable which is non static.
 	protected WebDriverWait wait;
 	protected SoftAssert softAssert;
 	protected static Logger log = LogUtils.getLogger();
 
 	public BasePage(WebDriver driver) {
-		this.driver = driver;
+		this.driver = driver; // this is like we are telling that yes this instance variable will be same as the parametrized variable
 		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		softAssert = new SoftAssert();
 
@@ -39,6 +40,9 @@ public class BasePage {
 	}
 
 	public void sendKeys() {
+		
+	
+		
 
 	}
 

@@ -91,3 +91,34 @@
 2025-02-07 14:51:39,027 [main] INFO org.utils.LogUtils - Login test passed successfully.
 2025-02-07 14:51:39,162 [main] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: loginIntoApplication_using_Credintails
 2025-02-07 18:38:48,955 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-08 14:08:59,102 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-08 14:09:13,090 [main] INFO org.utils.LogUtils - Driver initialized for test: Direct_Search
+2025-02-08 14:09:56,905 [main] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-08 14:09:56,912 [main] INFO org.utils.LogUtils - Login test passed successfully.
+2025-02-08 14:09:57,232 [main] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: Direct_Search
+2025-02-08 14:10:05,391 [main] INFO org.utils.LogUtils - Driver initialized for test: signUPIntoApplication_using_Registration
+2025-02-08 14:10:50,649 [main] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-08 14:10:50,655 [main] INFO org.utils.LogUtils - Login test passed successfully.
+2025-02-08 14:10:50,876 [main] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: signUPIntoApplication_using_Registration
+2025-02-08 14:10:58,257 [main] INFO org.utils.LogUtils - Driver initialized for test: loginIntoApplication_using_Credintails
+2025-02-08 14:11:19,675 [main] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-08 14:11:19,681 [main] INFO org.utils.LogUtils - Login test passed successfully.
+2025-02-08 14:11:19,829 [main] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: loginIntoApplication_using_Credintails
+2025-02-08 14:17:19,927 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-08 14:17:32,753 [main] INFO org.utils.LogUtils - Driver initialized for test: Direct_Search
+2025-02-08 14:18:08,031 [main] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-08 14:18:08,041 [main] INFO org.utils.LogUtils - Login test passed successfully.
+2025-02-08 14:18:08,513 [main] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: Direct_Search
+2025-02-08 14:18:58,891 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-08 14:19:08,817 [main] INFO org.utils.LogUtils - Driver initialized for test: Direct_Search
+2025-02-08 14:19:46,007 [main] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-08 14:19:46,017 [main] INFO org.utils.LogUtils - Login test passed successfully.
+2025-02-08 14:19:46,329 [main] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: Direct_Search
+2025-02-08 14:19:54,021 [main] INFO org.utils.LogUtils - Driver initialized for test: signUPIntoApplication_using_Registration
+2025-02-08 14:20:33,326 [main] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-08 14:20:33,330 [main] INFO org.utils.LogUtils - Login test passed successfully.
+2025-02-08 14:20:33,502 [main] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: signUPIntoApplication_using_Registration
+2025-02-08 14:20:40,329 [main] INFO org.utils.LogUtils - Driver initialized for test: loginIntoApplication_using_Credintails
+2025-02-08 14:21:15,641 [main] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-08 14:21:15,645 [main] INFO org.utils.LogUtils - Login test passed successfully.
+2025-02-08 14:21:15,829 [main] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: loginIntoApplication_using_Credintails

@@ -21,6 +21,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
+import org.utils.EmailUtility;
 import org.utils.ExtentReporterNG;
 import org.utils.LogUtils;
 
@@ -139,6 +140,8 @@ public class BaseTest {
 
 	@AfterSuite
 	public void openHtmlReport() {
+		EmailUtility.sendEmail("Test Execution Completed", "Your test suite has finished running.");
+    
 		try {
 			File htmlFile = new File(System.getProperty("user.dir") + File.separator + "Reports" + File.separator
 					+ Constants.ReportName);
