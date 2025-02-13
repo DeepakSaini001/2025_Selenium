@@ -6,8 +6,6 @@
 		<classes>
 			<class name="TestCases.TC_01_MyProtien_Login_using_BaseTest2" />
 				<class name="TestCases.TC_01_MyProtien_Login_using_BaseTest" />
-					<class name="TestCases.MyProtien_Login_using_BaseTest" />
-						<class name="TestCases.dummy" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
