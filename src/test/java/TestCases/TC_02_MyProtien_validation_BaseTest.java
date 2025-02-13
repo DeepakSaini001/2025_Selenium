@@ -25,7 +25,7 @@ import com.aventstack.extentreports.Status;
 
 public class TC_02_MyProtien_validation_BaseTest extends BaseTest {
 
-	@Test(groups = { "regression" }, priority = 2, description = "Login with Exisitng User in Application")
+	@Test(groups = { "regression" }, priority = 2, description = "TC_02_Login with Exisitng User in Application")
 	public void TC_02_loginIntoApplication_using_Credintails() {
 
 		HomePagePopUp homePage = new HomePagePopUp(getDriver()).navigateToURL();
@@ -34,7 +34,7 @@ public class TC_02_MyProtien_validation_BaseTest extends BaseTest {
 
 	}
 
-	@Test(groups = { "smoke" }, priority = 1, description = "Create New User in Application")
+	@Test(groups = { "smoke" }, priority = 1, description = "TC_02_Create New User in Application")
 	public void TC_02_signUPIntoApplication_using_Registration() {
 
 		HomePagePopUp signUp = new HomePagePopUp(getDriver()).navigateToURL();
@@ -43,7 +43,7 @@ public class TC_02_MyProtien_validation_BaseTest extends BaseTest {
 
 	}
 
-	@Test(groups = { "regression" }, priority = 0, description = "Direct_Search")
+	@Test(groups = { "regression" }, priority = 0, description = "TC_02_Direct_Search")
 	public void TC_02_Direct_Search() {
 		HomePagePopUp signUp = new HomePagePopUp(getDriver()).navigateToURL();
 	

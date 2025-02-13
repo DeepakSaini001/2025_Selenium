@@ -8,11 +8,56 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">49,724</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num attn">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">490,997</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCases.TC_01_MyProtien_Login_using_BaseTest2</td><td><a href="#m0">Direct_Search</a></td><td rowspan="1">1739004453010</td><td rowspan="1">35031</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">TestCases.TC_02_MyProtien_validation_BaseTest</td><td><a href="#m0">startDriver</a></td><td rowspan="1">1739441217659</td><td rowspan="1">7215</td></tr><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestCases.TC_01_MyProtien_Login_using_BaseTest</td><td><a href="#m1">TC_01_loginIntoApplication_using_Credintails</a></td><td rowspan="1">1739440944965</td><td rowspan="1">267606</td></tr><tr class="failedeven"><td><a href="#m2">TC_01_signUPIntoApplication_using_Registration</a></td><td rowspan="1">1739440769256</td><td rowspan="1">154629</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">TestCases.TC_02_MyProtien_validation_BaseTest</td><td><a href="#m3">quitDriver</a></td><td rowspan="3">1739441225003</td><td rowspan="3">-1739441225003</td></tr><tr class="skippedeven"><td><a href="#m4">quitDriver</a></td></tr><tr class="skippedeven"><td><a href="#m5">quitDriver</a></td></tr><tr class="skippedeven"><td><a href="#m6">startDriver</a></td><td rowspan="2">1739441224973</td><td rowspan="2">-1739441224973</td></tr><tr class="skippedeven"><td><a href="#m7">startDriver</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">TestCases.TC_02_MyProtien_validation_BaseTest</td><td><a href="#m8">TC_02_Direct_Search</a></td><td rowspan="1">1739441224948</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">TC_02_loginIntoApplication_using_Credintails</a></td><td rowspan="1">1739441225028</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m10">TC_02_signUPIntoApplication_using_Registration</a></td><td rowspan="1">1739441224984</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCases.TC_01_MyProtien_Login_using_BaseTest</td><td><a href="#m11">TC_01_Direct_Search</a></td><td rowspan="1">1739440746794</td><td rowspan="1">13379</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">TestCases.TC_01_MyProtien_Login_using_BaseTest2#Direct_Search</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">TestCases.TC_02_MyProtien_validation_BaseTest#startDriver</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>null</td><td>[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@4bbb49b0] output={null}]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.RuntimeException: Driver initialization failed! Browser: CHROME
+	at org.Base.BaseTest.startDriver(BaseTest.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.TC_01_MyProtien_Login_using_BaseTest#TC_01_loginIntoApplication_using_Credintails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;header-search-input&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.54, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: /var/folders/yx/3kwfkj954dd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54145/devtoo..., se:cdpVersion: 133.0.6943.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59188cbfc14001569e1bee72ee59bf34
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at org.Pages.HomePage.enterTextSearchField(HomePage.java:57)
+	at TestCases.TC_01_MyProtien_Login_using_BaseTest.TC_01_loginIntoApplication_using_Credintails(TC_01_MyProtien_Login_using_BaseTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCases.TC_01_MyProtien_Login_using_BaseTest#TC_01_signUPIntoApplication_using_Registration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name=&apos;Full Name:&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.54, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: /var/folders/yx/3kwfkj954dd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54052}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54052/devtoo..., se:cdpVersion: 133.0.6943.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4fd91976147ad18cf67da5a5d9d6b56
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at org.Pages.SignUpPage.enterFullName(SignUpPage.java:30)
+	at TestCases.TC_01_MyProtien_Login_using_BaseTest.TC_01_signUPIntoApplication_using_Registration(TC_01_MyProtien_Login_using_BaseTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCases.TC_02_MyProtien_validation_BaseTest#quitDriver</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCases.TC_02_MyProtien_validation_BaseTest#quitDriver</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCases.TC_02_MyProtien_validation_BaseTest#quitDriver</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCases.TC_02_MyProtien_validation_BaseTest#startDriver</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCases.TC_02_MyProtien_validation_BaseTest#startDriver</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestCases.TC_02_MyProtien_validation_BaseTest#TC_02_Direct_Search</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Driver initialization failed! Browser: CHROME
+	at org.Base.BaseTest.startDriver(BaseTest.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestCases.TC_02_MyProtien_validation_BaseTest#TC_02_loginIntoApplication_using_Credintails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Driver initialization failed! Browser: CHROME
+	at org.Base.BaseTest.startDriver(BaseTest.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestCases.TC_02_MyProtien_validation_BaseTest#TC_02_signUPIntoApplication_using_Registration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Driver initialization failed! Browser: CHROME
+	at org.Base.BaseTest.startDriver(BaseTest.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestCases.TC_01_MyProtien_Login_using_BaseTest#TC_01_Direct_Search</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

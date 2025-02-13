@@ -4,16 +4,27 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="CHROME"/>
     <classes>
-      <class name="TestCases.TC_01_MyProtien_Login_using_BaseTest2">
+      <class name="TestCases.TC_02_MyProtien_validation_BaseTest">
         <methods>
+          <include name="TC_02_loginIntoApplication_using_Credintails"/>
+          <include name="TC_02_Direct_Search"/>
+          <include name="TC_02_signUPIntoApplication_using_Registration"/>
           <include name="quitDriver"/>
-          <include name="signUPIntoApplication_using_Registration"/>
           <include name="startDriver"/>
-          <include name="loginIntoApplication_using_Credintails"/>
           <include name="setupSuite"/>
           <include name="openHtmlReport"/>
         </methods>
-      </class> <!-- TestCases.TC_01_MyProtien_Login_using_BaseTest2 -->
+      </class> <!-- TestCases.TC_02_MyProtien_validation_BaseTest -->
+      <class name="TestCases.TC_01_MyProtien_Login_using_BaseTest">
+        <methods>
+          <include name="TC_01_loginIntoApplication_using_Credintails"/>
+          <include name="quitDriver"/>
+          <include name="startDriver"/>
+          <include name="TC_01_signUPIntoApplication_using_Registration"/>
+          <include name="setupSuite"/>
+          <include name="openHtmlReport"/>
+        </methods>
+      </class> <!-- TestCases.TC_01_MyProtien_Login_using_BaseTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

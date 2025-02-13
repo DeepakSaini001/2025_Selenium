@@ -4,8 +4,9 @@
 	<test thread-count="5" name="Test">
 	 <parameter name="browser" value="CHROME"/>
 		<classes>
-		<class name="TestCases.TC_01_MyProtien_Login_using_BaseTest" />
+		
 			<class name="TestCases.TC_02_MyProtien_validation_BaseTest" />
+			<class name="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -30,7 +30,7 @@ import com.aventstack.extentreports.Status;
 
 public class BaseTest {
 
-	protected ExtentReports report;
+	protected static ExtentReports report;
 	protected ExtentTest test;
 	protected static Logger log = LogUtils.getLogger();
 
@@ -57,6 +57,9 @@ public class BaseTest {
 	@BeforeSuite(alwaysRun = true)
 	public void setupSuite() {
 		report = ExtentReporterNG.getInstance();
+		if (report == null) {
+			throw new RuntimeException("ExtentReports instance is null! Check ExtentReporterNG initialization.");
+		}
 		log.info("Initialize Extent Reports successfully");
 	}
 
@@ -69,66 +72,63 @@ public class BaseTest {
 			browser = "CHROME";
 		}
 		try {
-			
-			WebDriver initializedDriver = DriverManagerFactory.getManager(DriverType.valueOf(browser.toUpperCase())).InitilizeDriver();
-	        setDriver(initializedDriver);
-		
-	        
-	        if (getDriver() == null) {
-	            throw new RuntimeException("WebDriver is null after initialization!");
-	        }
-			System.out.println("Current thread"+ " : " + Thread.currentThread().getId() + ", " + "Driver --> startDriver : "
-					+ getDriver());
+
+			WebDriver initializedDriver = DriverManagerFactory.getManager(DriverType.valueOf(browser.toUpperCase()))
+					.InitilizeDriver();
+			setDriver(initializedDriver);
+
+			if (getDriver() == null) {
+				throw new RuntimeException("WebDriver is null after initialization!");
+			}
+			System.out.println("Current thread" + " : " + Thread.currentThread().getId() + ", "
+					+ "Driver --> startDriver : " + getDriver());
 			test = report.createTest(result.getMethod().getMethodName());
 			System.out.println("TestCase Started: " + test.getModel().getName());
 			log.info("Driver initialized for test: " + result.getMethod().getMethodName());
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new RuntimeException("Driver initialization failed! Browser: " + browser);
-			
+
 		}
 	}
 
 	@AfterMethod
 	public void quitDriver(@Optional String browser, ITestResult result) throws IOException {
-		
-		 WebDriver currentDriver = getDriver();
 
-		 
-		 if (currentDriver != null) {
-		System.out.println("Current thread "+ " : " + Thread.currentThread().getId()+ " : " + ", Driver --> QuitDriver: " + getDriver()
-				+ ", Date & Time : " + Constants.Timestamp);
-		
-		
-		if (result.getStatus() == ITestResult.SUCCESS) {
-			test.log(Status.PASS, "Test Passed at " + Constants.Timestamp);
-		} else if (result.getStatus() == ITestResult.FAILURE) {
+		WebDriver currentDriver = getDriver();
 
-			File destinationFile = new File("ScreenShot" + File.separator + browser + File.separator
-					+ result.getTestClass().getRealClass().getSimpleName() + "_" + result.getMethod().getMethodName()
-					+ "_" + Constants.Timestamp + ".png");
-			takeScreenshot(destinationFile);
-			test.log(Status.FAIL, "Test Failed at " + Constants.Timestamp + " : " + result.getThrowable())
-					.addScreenCaptureFromPath(destinationFile.getAbsolutePath());
-		} else if (result.getStatus() == ITestResult.SKIP) {
-			test.log(Status.SKIP, "Test Skipped at " + Constants.Timestamp + " : " + result.getThrowable());
+		if (currentDriver != null) {
+			System.out.println("Current thread " + " : " + Thread.currentThread().getId() + " : "
+					+ ", Driver --> QuitDriver: " + getDriver() + ", Date & Time : " + Constants.Timestamp);
+
+			if (result.getStatus() == ITestResult.SUCCESS) {
+				test.log(Status.PASS, "Test Passed at " + Constants.Timestamp);
+			} else if (result.getStatus() == ITestResult.FAILURE) {
+
+				File destinationFile = new File("ScreenShot" + File.separator + browser + File.separator
+						+ result.getTestClass().getRealClass().getSimpleName() + "_"
+						+ result.getMethod().getMethodName() + "_" + Constants.Timestamp + ".png");
+				takeScreenshot(destinationFile);
+				test.log(Status.FAIL, "Test Failed at " + Constants.Timestamp + " : " + result.getThrowable())
+						.addScreenCaptureFromPath(destinationFile.getAbsolutePath());
+			} else if (result.getStatus() == ITestResult.SKIP) {
+				test.log(Status.SKIP, "Test Skipped at " + Constants.Timestamp + " : " + result.getThrowable());
+			}
+
+			try {
+				currentDriver.quit();
+				log.info("Driver quit successfully for TestCase Name: " + result.getMethod().getMethodName());
+			} catch (Exception e) {
+				log.error("Error while quitting the driver", e);
+			} finally {
+				setDriver(null); // Ensure the ThreadLocal variable is cleared
+			}
+		} else {
+			log.warn("Driver is already null, skipping quit.");
 		}
-		
-	     try {
-	            currentDriver.quit();
-	            log.info("Driver quit successfully for TestCase Name: " + result.getMethod().getMethodName());
-	        } catch (Exception e) {
-	            log.error("Error while quitting the driver", e);
-	        } finally {
-	            setDriver(null); // Ensure the ThreadLocal variable is cleared
-	        }
-	    } else {
-	        log.warn("Driver is already null, skipping quit.");
-	    }
-	 
-	    report.flush();
-	}
 
+		report.flush();
+	}
 
 	private void takeScreenshot(File destinationFile) throws IOException {
 		TakesScreenshot screenshot = ((TakesScreenshot) getDriver());
@@ -139,8 +139,7 @@ public class BaseTest {
 
 	@AfterSuite
 	public void openHtmlReport() {
-	
-    
+
 		try {
 			File htmlFile = new File(System.getProperty("user.dir") + File.separator + "Reports" + File.separator
 					+ Constants.ReportName);
