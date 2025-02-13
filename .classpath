@@ -35,6 +35,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="src" path="/2024_MyProtien_9_Sep"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -26,7 +26,7 @@ import com.aventstack.extentreports.Status;
 public class TC_01_MyProtien_Login_using_BaseTest extends BaseTest {
 
 	@Test(groups = { "regression" }, priority = 2, description = "Login with Exisitng User in Application")
-	public void loginIntoApplication_using_Credintails() {
+	public void TC_01_loginIntoApplication_using_Credintails() {
 	
 
 		HomePage homePage = new HomePagePopUp(getDriver()).navigateToURL().verifyCookiesAndPopUp().clickOnAccount()
@@ -50,7 +50,7 @@ public class TC_01_MyProtien_Login_using_BaseTest extends BaseTest {
 	}
 
 	@Test(groups = { "smoke" }, priority = 1, description = "Create New User in Application")
-	public void signUPIntoApplication_using_Registration() {
+	public void TC_01_signUPIntoApplication_using_Registration() {
 
 		String username = "user" + new FakerUtils().generateRandomNumber();
 
@@ -62,7 +62,7 @@ public class TC_01_MyProtien_Login_using_BaseTest extends BaseTest {
 	}
 
 	@Test(groups = { "regression" }, priority = 0, description = "Direct_Search")
-	public void Direct_Search() {
+	public void TC_01_Direct_Search() {
 		test = report.createTest("Direct_Search");
 		HomePagePopUp signUp = new HomePagePopUp(getDriver()).navigateToURL();
 		test.pass("Login test passed successfully.");
