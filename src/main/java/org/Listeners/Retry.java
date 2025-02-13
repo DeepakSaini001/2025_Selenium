@@ -4,7 +4,6 @@ import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 import org.utils.CustomUtility;
 
-
 public class Retry extends CustomUtility implements IRetryAnalyzer {
 
 	int retryCount = 0;
@@ -13,17 +12,9 @@ public class Retry extends CustomUtility implements IRetryAnalyzer {
 	public boolean retry(ITestResult result) {
 		if (retryCount < maxRetryCount) {
 
-			
-			  System.out.println("Retrying test " + result.getName() + " with status " +
-			  getResultStatusName(result.getStatus()) + " for the " + (retryCount + 1) +
-			  " time(s).");
-			 
+			System.out.println("Retrying test " + result.getName() + " with status "
+					+ getResultStatusName(result.getStatus()) + " for the " + (retryCount + 1) + " time(s).");
 
-				/*
-				 * publishMessageInReports("Retrying test " + result.getName() + " with status "
-				 * + getResultStatusName(result.getStatus()) + " for the " + (retryCount + 1) +
-				 * " time(s).");
-				 */
 			retryCount++;
 			return true;
 		}
