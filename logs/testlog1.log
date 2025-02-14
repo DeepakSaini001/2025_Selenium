@@ -226,3 +226,1473 @@
 2025-02-13 16:48:18,329 [main] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
 2025-02-13 16:48:18,332 [main] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
 2025-02-13 16:48:18,509 [main] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-13 16:57:29,847 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:06:22,013 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:06:26,819 [TestNG-test=Test-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search
+2025-02-14 15:06:26,819 [TestNG-test=Test-4] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:06:26,819 [TestNG-test=Test-5] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:06:27,572 [TestNG-test=Test-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search
+2025-02-14 15:06:27,720 [TestNG-test=Test-3] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:06:35,664 [TestNG-test=Test-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:06:35,670 [TestNG-test=Test-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:06:35,679 [TestNG-test=Test-3] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:06:35,680 [TestNG-test=Test-3] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:06:35,714 [TestNG-test=Test-1] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:298)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:317)
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:224)
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:60)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:277)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:288)
+	... 25 more
+2025-02-14 15:06:35,819 [TestNG-test=Test-3] ERROR org.utils.LogUtils - Error while quitting the driver
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.openqa.selenium.remote.Response.getStatus()" is null
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-14 15:06:37,045 [TestNG-test=Test-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:06:37,045 [TestNG-test=Test-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:06:37,047 [TestNG-test=Test-5] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:06:37,047 [TestNG-test=Test-5] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:06:37,065 [TestNG-test=Test-4] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:06:37,065 [TestNG-test=Test-4] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:06:37,164 [TestNG-test=Test-5] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6da58ad15dacbb1d6ee0a2188173e08, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.55, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: /var/folders/yx/3kwfkj954dd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58815}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58815/devtoo..., se:cdpVersion: 133.0.6943.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6da58ad15dacbb1d6ee0a2188173e08
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@5979b12c rejected from java.util.concurrent.ThreadPoolExecutor@1995a510[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 51]
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+	... 24 more
+Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@5979b12c rejected from java.util.concurrent.ThreadPoolExecutor@1995a510[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 51]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.ensureExecutedAsync(HttpClientImpl.java:183)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:175)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.onReadError(Http1AsyncReceiver.java:516)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onComplete(Http1AsyncReceiver.java:601)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:648)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:853)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
+2025-02-14 15:06:37,174 [TestNG-test=Test-4] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:06:37,174 [TestNG-test=Test-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:06:37,482 [TestNG-test=Test-3] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:06:43,690 [TestNG-test=Test-3] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:06:43,692 [TestNG-test=Test-3] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:06:43,806 [TestNG-test=Test-3] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:06:44,049 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:06:46,467 [TestNG-test=Test-5] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:06:46,480 [TestNG-test=Test-3] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:06:48,005 [TestNG-test=Test-4] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:06:48,015 [TestNG-test=Test-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search
+2025-02-14 15:06:48,015 [TestNG-test=Test-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search
+2025-02-14 15:06:52,553 [TestNG-test=Test-5] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:06:52,554 [TestNG-test=Test-5] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:06:52,554 [TestNG-test=Test-3] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:06:52,554 [TestNG-test=Test-3] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:10:17,961 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:10:18,098 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:12:50,077 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:20:30,219 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:21:04,176 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:21:06,561 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: CHROME
+2025-02-14 15:21:06,561 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: CHROME
+2025-02-14 15:21:14,203 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:14,204 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:14,205 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:21:14,205 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:21:14,241 [TestNG-tests-2] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:298)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:317)
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:224)
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:60)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:120)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:277)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:288)
+	... 32 more
+2025-02-14 15:21:14,343 [TestNG-tests-1] ERROR org.utils.LogUtils - Error while quitting the driver
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.openqa.selenium.remote.Response.getStatus()" is null
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:120)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-14 15:21:16,018 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: CHROME
+2025-02-14 15:21:16,034 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: CHROME
+2025-02-14 15:21:22,308 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:22,309 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:21:22,309 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:22,310 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:21:22,431 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:21:22,431 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:21:23,856 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:21:23,872 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:21:30,180 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:30,182 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:21:30,182 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:30,182 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:21:30,185 [TestNG-tests-2] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:298)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:317)
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:224)
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:60)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:120)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:277)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:288)
+	... 32 more
+2025-02-14 15:21:30,295 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:21:31,718 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:21:31,740 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:21:39,109 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:39,111 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:21:39,117 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:39,118 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:21:39,222 [TestNG-tests-2] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6b0541f30944944e34e4ab79ce82324, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.55, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: /var/folders/yx/3kwfkj954dd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59339/devtoo..., se:cdpVersion: 133.0.6943.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f6b0541f30944944e34e4ab79ce82324
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:120)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@2782c0cc rejected from java.util.concurrent.ThreadPoolExecutor@1300553b[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 40]
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+	... 31 more
+Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@2782c0cc rejected from java.util.concurrent.ThreadPoolExecutor@1300553b[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 40]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.ensureExecutedAsync(HttpClientImpl.java:183)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:175)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:282)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:251)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.onReadError(Http1AsyncReceiver.java:516)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onComplete(Http1AsyncReceiver.java:601)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:648)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:853)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
+2025-02-14 15:21:39,232 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:21:40,622 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:21:40,626 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:21:47,183 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:47,186 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:21:47,299 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:47,300 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:21:47,390 [TestNG-tests-1] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8322c931b3028263316976701e50807, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.55, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: /var/folders/yx/3kwfkj954dd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59398/devtoo..., se:cdpVersion: 133.0.6943.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8322c931b3028263316976701e50807
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:120)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+	... 31 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:376)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 3 more
+2025-02-14 15:21:47,402 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:21:48,718 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:21:48,725 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:21:54,378 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:54,379 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:21:54,379 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:21:54,379 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:21:54,385 [TestNG-tests-1] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:298)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:317)
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:224)
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:60)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:120)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:277)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:288)
+	... 32 more
+2025-02-14 15:21:54,495 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:24:59,547 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:25:38,794 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:26:34,208 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: CHROME
+2025-02-14 15:26:34,208 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: CHROME
+2025-02-14 15:27:00,945 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:27:38,864 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:27:38,883 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:27:46,010 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:27:46,011 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:27:46,031 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:27:46,033 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:27:46,795 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:27:46,823 [TestNG-tests-2] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c90ce0e6-a10d-4ddc-8285-269ec8db2acd, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 70774, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-02-14 15:27:51,572 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:27:52,330 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:28:02,262 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:28:02,265 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:28:02,804 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:28:05,586 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:28:05,606 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:28:06,258 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:28:06,614 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:28:09,626 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:28:12,854 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:28:12,855 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:28:13,724 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:28:16,627 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:28:21,070 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:28:21,071 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:28:21,817 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:28:23,564 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:28:23,565 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:28:24,406 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:28:25,015 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:28:27,329 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:28:37,164 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:28:37,168 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:28:37,912 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:28:38,623 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:28:38,624 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:28:39,285 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:28:40,902 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:28:42,229 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:28:53,185 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:28:53,188 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:28:53,741 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:28:54,154 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:28:54,154 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:28:54,694 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:28:57,402 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:29:05,360 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:29:05,361 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:29:05,857 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:30:25,578 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:30:31,261 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:30:31,755 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:30:40,307 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:30:40,308 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:30:40,881 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:30:41,779 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:30:41,780 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:30:42,324 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:30:43,068 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:30:44,076 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:30:49,164 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:30:49,165 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:30:49,706 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:30:51,455 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:30:53,633 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:30:53,633 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:30:54,076 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:30:55,805 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:31:01,354 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:31:01,355 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:31:01,802 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:31:03,606 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:31:04,609 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:31:04,610 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:31:05,170 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:31:07,056 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:31:14,757 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:31:14,758 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:31:14,783 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:31:14,783 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:31:15,307 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:31:15,351 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:31:17,027 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:31:17,548 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:31:27,126 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:31:27,130 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:31:27,581 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:31:29,401 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:31:30,132 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:31:30,132 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:31:30,553 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:31:32,239 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:31:36,222 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:31:36,225 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:31:36,876 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:31:39,766 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:31:39,767 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:31:40,313 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:38:59,951 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:39:03,557 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:39:03,563 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:39:11,702 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:11,703 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:39:11,704 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:11,705 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:39:12,333 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:39:12,335 [TestNG-tests-1] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [73e6f692-7a88-4e1a-8c0f-f8e8dc43eb9b, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 71644, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-14 15:39:14,855 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:39:16,083 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:39:19,047 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:19,048 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:39:19,612 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:39:21,482 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:39:25,154 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:25,160 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:39:25,787 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:39:27,682 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:39:28,032 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:28,032 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:39:28,596 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:39:30,409 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:39:33,194 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:33,194 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:39:33,741 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:39:35,552 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:39:37,120 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:37,121 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:39:37,673 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:39:39,519 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:39:42,517 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:42,518 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:39:43,068 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:39:43,603 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:43,603 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:39:44,126 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:39:44,865 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:39:45,884 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:39:53,288 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:53,290 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:39:53,960 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:39:54,889 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:39:54,890 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:39:55,558 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:39:55,818 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:40:01,694 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:40:01,695 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:40:02,226 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:40:57,677 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:41:00,157 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:41:01,010 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:41:08,635 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:41:08,636 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:41:09,226 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:41:09,394 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:41:09,395 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:41:09,990 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:41:11,857 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:41:12,334 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:41:18,226 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:41:18,233 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:41:18,755 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:41:20,572 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:41:24,306 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:41:24,307 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:41:24,894 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:41:26,701 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:41:28,260 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:41:28,261 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:41:28,814 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:41:30,637 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:41:31,367 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:41:31,368 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:41:31,918 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:41:33,733 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:41:42,824 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:41:42,826 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:41:43,367 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:41:45,115 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:41:49,574 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:41:49,576 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:41:50,119 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:41:51,901 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:41:54,234 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:41:54,234 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:41:54,841 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:41:56,584 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:42:00,849 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:42:00,850 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:42:01,404 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:42:03,149 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:42:06,403 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:42:06,405 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:42:06,831 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:42:09,220 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:42:09,220 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:42:09,766 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:43:00,783 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:43:03,255 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:43:03,715 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:43:08,137 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:08,140 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:43:08,741 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:43:12,156 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:43:12,538 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:12,538 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:43:13,099 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:43:14,795 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:43:17,442 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:17,444 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:43:18,041 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:43:20,123 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:20,124 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:43:20,805 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:43:20,855 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:43:23,699 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:43:28,235 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:28,237 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:43:28,926 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:43:29,181 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:29,181 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:43:29,782 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:43:31,030 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:43:31,578 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:43:36,726 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:36,732 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:43:37,280 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:43:39,086 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:43:41,557 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:41,558 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:43:42,120 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:43:43,638 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:43,638 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:43:43,888 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:43:44,184 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:43:45,997 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:43:48,924 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:48,924 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:43:49,435 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:43:51,231 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:43:55,261 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:55,262 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:43:55,819 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:43:55,934 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:43:55,934 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:43:56,480 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:45:54,137 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:45:56,683 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:45:57,100 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:46:03,636 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:03,637 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:46:03,639 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:03,641 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:46:04,212 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:46:04,224 [TestNG-tests-1] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c1072cd4-0fa1-419a-a734-c794b497cc16, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 72443, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-14 15:46:06,375 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:46:07,748 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:46:12,446 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:12,449 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:46:13,024 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:46:13,824 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:13,824 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:46:14,416 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:46:15,648 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:46:16,378 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:46:22,301 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:22,305 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:46:23,022 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:46:25,276 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:46:25,422 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:25,423 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:46:26,006 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:46:28,009 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:46:31,729 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:31,738 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:46:32,312 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:46:34,148 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:46:38,357 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:38,363 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:46:38,793 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:46:40,567 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:46:45,527 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:45,529 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:46:46,069 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:46:47,840 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:46:49,979 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:49,980 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:46:50,438 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:46:52,277 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:46:53,794 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:53,797 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:46:54,363 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:46:58,025 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:46:58,025 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:46:58,578 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:47:39,353 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:47:42,669 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: CHROME
+2025-02-14 15:47:42,669 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: CHROME
+2025-02-14 15:47:49,422 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:47:49,423 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:47:49,451 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:47:49,451 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:47:49,555 [TestNG-tests-1] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3125b9adf568c228322bc5fe5bd7a3a, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.55, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: /var/folders/yx/3kwfkj954dd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65379}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65379/devtoo..., se:cdpVersion: 133.0.6943.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3125b9adf568c228322bc5fe5bd7a3a
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:125)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+	... 31 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:376)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 3 more
+2025-02-14 15:47:49,563 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:47:51,013 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: CHROME
+2025-02-14 15:47:51,020 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: CHROME
+2025-02-14 15:47:57,838 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:47:57,839 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:47:57,964 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:47:57,964 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:47:58,049 [TestNG-tests-1] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [699a1539f84578b55a43f110da06d265, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.55, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: /var/folders/yx/3kwfkj954dd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65432}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65432/devtoo..., se:cdpVersion: 133.0.6943.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 699a1539f84578b55a43f110da06d265
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:125)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+	... 31 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:376)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 3 more
+2025-02-14 15:47:58,060 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:47:59,266 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:48:00,219 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:48:06,239 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:48:06,243 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:48:06,376 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:48:07,058 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:48:07,058 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:48:07,235 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:48:07,534 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:48:08,238 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:48:14,643 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:48:14,646 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:48:14,757 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:48:15,916 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:48:16,608 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:48:16,608 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:48:16,715 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:48:17,772 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:48:21,403 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:48:21,406 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:48:21,528 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:48:22,762 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:48:24,429 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:48:24,431 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:48:24,554 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:48:25,754 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:48:27,951 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:48:27,956 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:48:28,066 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:48:30,922 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:48:30,923 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:48:31,039 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:48:55,644 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:48:57,557 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: CHROME
+2025-02-14 15:48:57,557 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: CHROME
+2025-02-14 15:49:06,627 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:49:06,628 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:49:06,628 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:49:06,629 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:49:06,698 [TestNG-tests-1] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:298)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:317)
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:224)
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:60)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:125)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:277)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:288)
+	... 32 more
+2025-02-14 15:49:06,819 [TestNG-tests-2] ERROR org.utils.LogUtils - Error while quitting the driver
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.openqa.selenium.remote.Response.getStatus()" is null
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:125)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-14 15:49:08,116 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: CHROME
+2025-02-14 15:49:09,063 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: CHROME
+2025-02-14 15:49:16,673 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:49:16,676 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:49:16,831 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:49:18,106 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:49:18,468 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:49:18,468 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:49:18,582 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:49:19,602 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:49:33,201 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:49:33,204 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:49:33,320 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:49:34,565 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:49:37,554 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:49:37,555 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:49:37,670 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:49:38,703 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: CHROME
+2025-02-14 15:49:48,154 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:49:48,155 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:49:48,263 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:49:49,283 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:49:52,971 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:49:52,971 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:49:53,087 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:49:54,169 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:49:58,952 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:49:58,954 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:49:59,070 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:50:00,103 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:50:05,436 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:50:05,437 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:50:05,546 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:50:06,648 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: CHROME
+2025-02-14 15:50:08,146 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:50:08,146 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:50:08,259 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:50:17,553 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:50:17,554 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:50:17,661 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:51:50,713 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 15:51:54,220 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:51:54,221 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 15:52:00,347 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:00,349 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:52:00,350 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:00,350 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:52:00,983 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 15:52:00,985 [TestNG-tests-2] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1565ba6a-f9ab-4103-a4ca-16694ca94710, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 73592, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-14 15:52:03,359 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:52:04,842 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 15:52:09,780 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:09,782 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:52:10,403 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:52:12,663 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:52:17,048 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:17,048 [TestNG-tests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 15:52:17,597 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 15:52:19,097 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:19,098 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:52:19,358 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:52:19,633 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:52:21,397 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:52:25,837 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:25,842 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:52:26,394 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 15:52:28,241 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 15:52:32,442 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:32,443 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:52:33,053 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:52:35,127 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:52:41,003 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:41,005 [TestNG-tests-1] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 15:52:41,787 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 15:52:44,114 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:52:44,351 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:44,351 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:52:44,949 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:52:46,741 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:52:52,761 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:52,763 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:52:53,311 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 15:52:54,997 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:52:54,997 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:52:55,127 [TestNG-tests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 15:52:55,582 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 15:53:00,531 [TestNG-tests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 15:53:00,532 [TestNG-tests-1] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 15:53:01,053 [TestNG-tests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 16:01:16,554 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 16:01:20,989 [TestNG-test=ChromeTests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 16:01:20,989 [TestNG-test=ChromeTests-4] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 16:01:24,159 [TestNG-test=ChromeTests-3] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 16:01:24,256 [TestNG-test=ChromeTests-6] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 16:01:24,668 [TestNG-test=ChromeTests-5] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 16:01:25,533 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 16:01:26,143 [TestNG-test=ChromeTests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 16:01:32,871 [TestNG-test=ChromeTests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:01:32,877 [TestNG-test=ChromeTests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 16:01:32,877 [TestNG-test=ChromeTests-4] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:01:32,877 [TestNG-test=ChromeTests-4] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 16:01:33,512 [TestNG-test=ChromeTests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 16:01:33,514 [TestNG-test=ChromeTests-4] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [30e1feb7-679d-44e0-9d9b-a4d2540559df, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 74031, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-14 16:01:36,860 [TestNG-test=ChromeTests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:01:36,860 [TestNG-test=ChromeTests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 16:01:37,307 [TestNG-test=ChromeTests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 16:01:41,080 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:01:41,081 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 16:01:41,497 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search
+2025-02-14 16:01:42,109 [TestNG-test=ChromeTests-3] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:01:42,110 [TestNG-test=ChromeTests-3] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 16:01:42,110 [TestNG-test=ChromeTests-6] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:01:42,110 [TestNG-test=ChromeTests-6] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 16:01:42,110 [TestNG-test=ChromeTests-5] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:01:42,110 [TestNG-test=ChromeTests-5] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 16:01:42,535 [TestNG-test=ChromeTests-6] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 16:01:42,536 [TestNG-test=ChromeTests-5] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2806a35d-a2ba-4ef4-881d-200b15840d52, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 74032, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:393)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:125)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+	... 24 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:376)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 3 more
+2025-02-14 16:01:42,535 [TestNG-test=ChromeTests-3] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2806a35d-a2ba-4ef4-881d-200b15840d52, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 74032, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-02-14 16:01:43,906 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 16:01:48,201 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:01:48,202 [TestNG-tests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 16:01:48,822 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 16:01:50,596 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 16:01:56,321 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:01:56,322 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 16:01:56,871 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 16:01:58,655 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 16:02:03,474 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:02:03,474 [TestNG-tests-2] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 16:02:04,018 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 16:02:05,936 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 16:02:10,376 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:02:10,377 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 16:02:10,896 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 16:02:12,601 [TestNG-tests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 16:02:19,058 [TestNG-tests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:02:19,059 [TestNG-tests-2] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 16:02:19,625 [TestNG-tests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 16:05:00,278 [main] INFO org.utils.LogUtils - Initialize Extent Reports successfully
+2025-02-14 16:05:03,081 [TestNG-test=ChromeTests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 16:05:04,204 [TestNG-test=ChromeTests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 16:05:04,324 [TestNG-test=ChromeTests-3] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 16:05:06,116 [TestNG-test=ChromeTests-4] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 16:05:06,227 [TestNG-test=ChromeTests-6] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 16:05:06,872 [TestNG-test=ChromeTests-5] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 16:05:13,787 [TestNG-test=ChromeTests-3] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:13,789 [TestNG-test=ChromeTests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:13,791 [TestNG-test=ChromeTests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 16:05:13,791 [TestNG-test=ChromeTests-3] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 16:05:14,581 [TestNG-test=ChromeTests-3] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 16:05:14,586 [TestNG-test=ChromeTests-1] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e5550816-f731-4567-b91f-ec2e00e775ae, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 74321, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:393)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:125)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+	... 24 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:376)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 3 more
+2025-02-14 16:05:19,476 [TestNG-test=ChromeTests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:19,482 [TestNG-test=ChromeTests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 16:05:19,487 [TestNG-test=ChromeTests-5] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:19,487 [TestNG-test=ChromeTests-5] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 16:05:20,068 [TestNG-test=ChromeTests-4] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:20,069 [TestNG-test=ChromeTests-4] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 16:05:20,073 [TestNG-test=ChromeTests-6] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:20,074 [TestNG-test=ChromeTests-6] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 16:05:20,081 [TestNG-test=ChromeTests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 16:05:20,141 [TestNG-test=ChromeTests-5] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 16:05:20,494 [TestNG-test=ChromeTests-4] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 16:05:20,495 [TestNG-test=ChromeTests-6] ERROR org.utils.LogUtils - Error while quitting the driver
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1e314f56-d9f1-42a5-8639-c6a114630344, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 74318, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:393)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:125)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+	... 24 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:376)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 3 more
+2025-02-14 16:05:22,710 [TestNG-test=FirefoxTests-5] INFO org.utils.LogUtils - Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 16:05:23,424 [TestNG-test=FirefoxTests-3] INFO org.utils.LogUtils - Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 16:05:23,967 [TestNG-test=FirefoxTests-1] INFO org.utils.LogUtils - Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+2025-02-14 16:05:25,434 [TestNG-test=FirefoxTests-2] INFO org.utils.LogUtils - Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+2025-02-14 16:05:26,504 [TestNG-test=FirefoxTests-6] INFO org.utils.LogUtils - Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+2025-02-14 16:05:27,201 [TestNG-test=FirefoxTests-4] INFO org.utils.LogUtils - Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+2025-02-14 16:05:43,185 [TestNG-test=FirefoxTests-6] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:43,199 [TestNG-test=FirefoxTests-4] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:43,205 [TestNG-test=FirefoxTests-4] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 16:05:43,205 [TestNG-test=FirefoxTests-6] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 16:05:43,803 [TestNG-test=FirefoxTests-6] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+2025-02-14 16:05:43,803 [TestNG-test=FirefoxTests-4] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+2025-02-14 16:05:44,395 [TestNG-test=FirefoxTests-3] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:44,395 [TestNG-test=FirefoxTests-3] INFO org.utils.LogUtils - signUPIntoApplication_using_Registration.
+2025-02-14 16:05:44,613 [TestNG-test=FirefoxTests-5] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:44,613 [TestNG-test=FirefoxTests-5] INFO org.utils.LogUtils - loginIntoApplication_using_Credintails 
+2025-02-14 16:05:44,985 [TestNG-test=FirefoxTests-2] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:44,987 [TestNG-test=FirefoxTests-2] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 16:05:45,050 [TestNG-test=FirefoxTests-3] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+2025-02-14 16:05:45,217 [TestNG-test=FirefoxTests-1] INFO org.utils.LogUtils - Navigating to URL Successfully : https://www.myprotein.co.in/
+2025-02-14 16:05:45,217 [TestNG-test=FirefoxTests-1] INFO org.utils.LogUtils - Direct_Search. 
+2025-02-14 16:05:45,249 [TestNG-test=FirefoxTests-5] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+2025-02-14 16:05:45,548 [TestNG-test=FirefoxTests-2] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_03_Direct_Search
+2025-02-14 16:05:45,836 [TestNG-test=FirefoxTests-1] INFO org.utils.LogUtils - Driver quit successfully for TestCase Name: TC_02_Direct_Search

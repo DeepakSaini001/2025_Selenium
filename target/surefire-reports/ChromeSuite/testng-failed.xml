@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [ChromeSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="methods" name="Test(failed)" verbose="0">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="TestCases.TC_03_MyProtien_validation_repeat_BaseTest">
+        <methods>
+          <include name="TC_03_Direct_Search"/>
+          <include name="TC_03_loginIntoApplication_using_Credintails"/>
+          <include name="quitDriver"/>
+          <include name="startDriver"/>
+          <include name="TC_03_signUPIntoApplication_using_Registration"/>
+          <include name="openHtmlReport"/>
+          <include name="setupSuite"/>
+        </methods>
+      </class> <!-- TestCases.TC_03_MyProtien_validation_repeat_BaseTest -->
+      <class name="TestCases.TC_02_MyProtien_validation_BaseTest">
+        <methods>
+          <include name="TC_02_loginIntoApplication_using_Credintails"/>
+          <include name="TC_02_Direct_Search"/>
+          <include name="quitDriver"/>
+          <include name="TC_02_signUPIntoApplication_using_Registration"/>
+          <include name="startDriver"/>
+          <include name="openHtmlReport"/>
+          <include name="setupSuite"/>
+        </methods>
+      </class> <!-- TestCases.TC_02_MyProtien_validation_BaseTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ChromeSuite] -->

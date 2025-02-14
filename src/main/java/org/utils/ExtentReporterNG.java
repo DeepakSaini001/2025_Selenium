@@ -1,5 +1,6 @@
 package org.utils;
 
+import org.Base.BaseTest;
 import org.Constants.Constants;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -22,7 +23,11 @@ public class ExtentReporterNG {
 		report.setSystemInfo("Host Name", "TestMachine");
 		report.setSystemInfo("Environment", "QA");
 		report.setSystemInfo("User Name", "Deepak");
-		report.setSystemInfo("Browser", "Chrome");
+		//report.setSystemInfo("Browser", "Chrome");
+		String browser = System.getProperty("browser", BaseTest.getBrowserName());
+	        report.setSystemInfo("Browser", browser != null ? browser : "Unknown");
+
+	        report.setSystemInfo("OS", System.getProperty("os.name"));
 		report.setSystemInfo("OS", System.getProperty("os.name"));
 
 		return report;

@@ -35,6 +35,7 @@ public class BaseTest {
 	protected static Logger log = LogUtils.getLogger();
 
 	private ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+	private static ThreadLocal<String> browserName = new ThreadLocal<>();
 
 	/*
 	 * ThreadLocal is used to create variables that are local to the thread. Each
@@ -54,6 +55,10 @@ public class BaseTest {
 
 	}
 
+	public static String getBrowserName() {
+		return browserName.get();
+	}
+
 	@BeforeSuite(alwaysRun = true)
 	public void setupSuite() {
 		report = ExtentReporterNG.getInstance();
@@ -71,6 +76,8 @@ public class BaseTest {
 		if (browser == null || browser.isEmpty()) {
 			browser = "CHROME";
 		}
+		browserName.set(browser);
+
 		try {
 
 			WebDriver initializedDriver = DriverManagerFactory.getManager(DriverType.valueOf(browser.toUpperCase()))
@@ -80,11 +87,13 @@ public class BaseTest {
 			if (getDriver() == null) {
 				throw new RuntimeException("WebDriver is null after initialization!");
 			}
+
 			System.out.println("Current thread" + " : " + Thread.currentThread().getId() + ", "
 					+ "Driver --> startDriver : " + getDriver());
 			test = report.createTest(result.getMethod().getMethodName());
 			System.out.println("TestCase Started: " + test.getModel().getName());
-			log.info("Driver initialized for test: " + result.getMethod().getMethodName());
+			log.info(
+					"Driver initialized for test: " + result.getMethod().getMethodName() + " with browser: " + browser);
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new RuntimeException("Driver initialization failed! Browser: " + browser);
