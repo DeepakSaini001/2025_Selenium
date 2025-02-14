@@ -23,7 +23,7 @@
     <version>3.2.5</version>
     <configuration>
         <parallel>methods</parallel>  <!-- Ensure tests run in separate threads -->
-        <threadCount>5</threadCount>  <!-- Controls parallel execution -->
+        <threadCount>2</threadCount>  <!-- Controls parallel execution -->
         <suiteXmlFiles>
             <suiteXmlFile>testng_parallel.xml</suiteXmlFile>  <!-- Single testng.xml file -->
         </suiteXmlFiles>

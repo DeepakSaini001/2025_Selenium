@@ -21,6 +21,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.utils.ExtentReporterNG;
 import org.utils.LogUtils;
 
@@ -69,9 +70,12 @@ public class BaseTest {
 	}
 
 	@BeforeMethod
+	@Parameters("browser")
 	public void startDriver(@Optional String browser, ITestResult result) {
 
-		browser = System.getProperty("browser", browser);
+		if (System.getProperty("browser") != null) {
+			browser = System.getProperty("browser");
+		}
 
 		if (browser == null || browser.isEmpty()) {
 			browser = "CHROME";
@@ -80,9 +84,11 @@ public class BaseTest {
 
 		try {
 
-			WebDriver initializedDriver = DriverManagerFactory.getManager(DriverType.valueOf(browser.toUpperCase()))
-					.InitilizeDriver();
-			setDriver(initializedDriver);
+			if (getDriver() == null) {
+				WebDriver initializedDriver = DriverManagerFactory.getManager(DriverType.valueOf(browser.toUpperCase()))
+						.InitilizeDriver();
+				setDriver(initializedDriver);
+			}
 
 			if (getDriver() == null) {
 				throw new RuntimeException("WebDriver is null after initialization!");
@@ -90,7 +96,8 @@ public class BaseTest {
 
 			System.out.println("Current thread" + " : " + Thread.currentThread().getId() + ", "
 					+ "Driver --> startDriver : " + getDriver());
-			test = report.createTest(result.getMethod().getMethodName());
+			test = report.createTest(result.getMethod().getMethodName()).assignCategory(browser);
+
 			System.out.println("TestCase Started: " + test.getModel().getName());
 			log.info(
 					"Driver initialized for test: " + result.getMethod().getMethodName() + " with browser: " + browser);

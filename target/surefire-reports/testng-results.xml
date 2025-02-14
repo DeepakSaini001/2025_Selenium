@@ -2,117 +2,123 @@
 <testng-results ignored="4" total="16" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-14T16:05:00 IST" name="ParallelSuite" finished-at="2025-02-14T16:05:45 IST" duration-ms="45552">
+  <suite started-at="2025-02-14T16:48:15 IST" name="ParallelSuite" finished-at="2025-02-14T16:49:50 IST" duration-ms="94453">
     <groups>
       <group name="regression">
-        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" name="TC_02_Direct_Search" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
-        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" name="TC_03_Direct_Search" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
-        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" name="TC_02_loginIntoApplication_using_Credintails" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
-        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" name="TC_03_loginIntoApplication_using_Credintails" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
-        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" name="TC_02_Direct_Search" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
-        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" name="TC_03_Direct_Search" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
-        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" name="TC_02_loginIntoApplication_using_Credintails" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
-        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" name="TC_03_loginIntoApplication_using_Credintails" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
+        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" name="TC_02_Direct_Search" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
+        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" name="TC_03_Direct_Search" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
+        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" name="TC_02_loginIntoApplication_using_Credintails" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
+        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" name="TC_03_loginIntoApplication_using_Credintails" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
+        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" name="TC_02_Direct_Search" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
+        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" name="TC_03_Direct_Search" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
+        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" name="TC_02_loginIntoApplication_using_Credintails" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
+        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" name="TC_03_loginIntoApplication_using_Credintails" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" name="TC_02_signUPIntoApplication_using_Registration" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
-        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" name="TC_03_signUPIntoApplication_using_Registration" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
-        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" name="TC_02_signUPIntoApplication_using_Registration" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
-        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" name="TC_03_signUPIntoApplication_using_Registration" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
+        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" name="TC_02_signUPIntoApplication_using_Registration" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
+        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" name="TC_03_signUPIntoApplication_using_Registration" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
+        <method signature="TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" name="TC_02_signUPIntoApplication_using_Registration" class="TestCases.TC_02_MyProtien_validation_BaseTest"/>
+        <method signature="TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" name="TC_03_signUPIntoApplication_using_Registration" class="TestCases.TC_03_MyProtien_validation_repeat_BaseTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-02-14T16:05:00 IST" name="ChromeTests" finished-at="2025-02-14T16:05:20 IST" duration-ms="20213">
+    <test started-at="2025-02-14T16:48:15 IST" name="ChromeTests" finished-at="2025-02-14T16:48:59 IST" duration-ms="44151">
       <class name="TestCases.TC_03_MyProtien_validation_repeat_BaseTest">
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" started-at="2025-02-14T16:05:00 IST" name="startDriver" finished-at="2025-02-14T16:05:06 IST" duration-ms="5914" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" started-at="2025-02-14T16:48:15 IST" name="startDriver" finished-at="2025-02-14T16:48:17 IST" duration-ms="2101" status="PASS">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" started-at="2025-02-14T16:05:00 IST" name="startDriver" finished-at="2025-02-14T16:05:06 IST" duration-ms="5805" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" started-at="2025-02-14T16:05:00 IST" name="startDriver" finished-at="2025-02-14T16:05:03 IST" duration-ms="2769" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" started-at="2025-02-14T16:05:04 IST" name="TC_03_Direct_Search" description="TC_03_Direct_Search" finished-at="2025-02-14T16:05:19 IST" duration-ms="15210" status="PASS">
+        <test-method signature="TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" started-at="2025-02-14T16:48:17 IST" name="TC_03_Direct_Search" description="TC_03_Direct_Search" finished-at="2025-02-14T16:48:30 IST" duration-ms="13159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_Direct_Search -->
-        <test-method signature="TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" started-at="2025-02-14T16:05:06 IST" name="TC_03_signUPIntoApplication_using_Registration" description="TC_03_Create New User in Application" finished-at="2025-02-14T16:05:20 IST" duration-ms="13933" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" started-at="2025-02-14T16:48:30 IST" name="quitDriver" finished-at="2025-02-14T16:48:31 IST" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TC_03_Direct_Search status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" started-at="2025-02-14T16:48:31 IST" name="startDriver" finished-at="2025-02-14T16:48:32 IST" duration-ms="1356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" started-at="2025-02-14T16:48:32 IST" name="TC_03_signUPIntoApplication_using_Registration" description="TC_03_Create New User in Application" finished-at="2025-02-14T16:48:41 IST" duration-ms="8775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_signUPIntoApplication_using_Registration -->
-        <test-method signature="TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" started-at="2025-02-14T16:05:06 IST" name="TC_03_loginIntoApplication_using_Credintails" description="TC_03_Login with Exisitng User in Application" finished-at="2025-02-14T16:05:20 IST" duration-ms="13844" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" started-at="2025-02-14T16:48:41 IST" name="quitDriver" finished-at="2025-02-14T16:48:41 IST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TC_03_signUPIntoApplication_using_Registration status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" started-at="2025-02-14T16:48:41 IST" name="startDriver" finished-at="2025-02-14T16:48:42 IST" duration-ms="1147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" started-at="2025-02-14T16:48:42 IST" name="TC_03_loginIntoApplication_using_Credintails" description="TC_03_Login with Exisitng User in Application" finished-at="2025-02-14T16:48:59 IST" duration-ms="17003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_loginIntoApplication_using_Credintails -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" started-at="2025-02-14T16:05:19 IST" name="quitDriver" finished-at="2025-02-14T16:05:20 IST" duration-ms="623" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd]" started-at="2025-02-14T16:48:59 IST" name="quitDriver" finished-at="2025-02-14T16:48:59 IST" duration-ms="125" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=TC_03_Direct_Search status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" started-at="2025-02-14T16:05:20 IST" name="quitDriver" finished-at="2025-02-14T16:05:20 IST" duration-ms="430" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=TC_03_signUPIntoApplication_using_Registration status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db]" started-at="2025-02-14T16:05:20 IST" name="quitDriver" finished-at="2025-02-14T16:05:20 IST" duration-ms="424" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=TC_03_loginIntoApplication_using_Credintails status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@64aad6db] output={null}]]]>
+                <![CDATA[[TestResult name=TC_03_loginIntoApplication_using_Credintails status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@16c8b7bd] output={null}]]]>
               </value>
             </param>
           </params>
@@ -121,96 +127,102 @@
         </test-method> <!-- quitDriver -->
       </class> <!-- TestCases.TC_03_MyProtien_validation_repeat_BaseTest -->
       <class name="TestCases.TC_02_MyProtien_validation_BaseTest">
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" started-at="2025-02-14T16:05:00 IST" name="startDriver" finished-at="2025-02-14T16:05:04 IST" duration-ms="3892" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" started-at="2025-02-14T16:48:15 IST" name="startDriver" finished-at="2025-02-14T16:48:17 IST" duration-ms="2101" status="PASS">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" started-at="2025-02-14T16:05:00 IST" name="startDriver" finished-at="2025-02-14T16:05:04 IST" duration-ms="4011" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" started-at="2025-02-14T16:05:00 IST" name="startDriver" finished-at="2025-02-14T16:05:06 IST" duration-ms="6563" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" started-at="2025-02-14T16:05:04 IST" name="TC_02_Direct_Search" description="TC_02_Direct_Search" finished-at="2025-02-14T16:05:13 IST" duration-ms="9526" status="PASS">
+        <test-method signature="TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" started-at="2025-02-14T16:48:17 IST" name="TC_02_Direct_Search" description="TC_02_Direct_Search" finished-at="2025-02-14T16:48:30 IST" duration-ms="13158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_Direct_Search -->
-        <test-method signature="TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" started-at="2025-02-14T16:05:04 IST" name="TC_02_signUPIntoApplication_using_Registration" description="TC_02_Create New User in Application" finished-at="2025-02-14T16:05:13 IST" duration-ms="9466" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" started-at="2025-02-14T16:48:30 IST" name="quitDriver" finished-at="2025-02-14T16:48:31 IST" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TC_02_Direct_Search status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" started-at="2025-02-14T16:48:31 IST" name="startDriver" finished-at="2025-02-14T16:48:32 IST" duration-ms="1338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" started-at="2025-02-14T16:48:32 IST" name="TC_02_signUPIntoApplication_using_Registration" description="TC_02_Create New User in Application" finished-at="2025-02-14T16:48:41 IST" duration-ms="8795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_signUPIntoApplication_using_Registration -->
-        <test-method signature="TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" started-at="2025-02-14T16:05:06 IST" name="TC_02_loginIntoApplication_using_Credintails" description="TC_02_Login with Exisitng User in Application" finished-at="2025-02-14T16:05:19 IST" duration-ms="12607" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" started-at="2025-02-14T16:48:41 IST" name="quitDriver" finished-at="2025-02-14T16:48:41 IST" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TC_02_signUPIntoApplication_using_Registration status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" started-at="2025-02-14T16:48:41 IST" name="startDriver" finished-at="2025-02-14T16:48:43 IST" duration-ms="2347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" started-at="2025-02-14T16:48:43 IST" name="TC_02_loginIntoApplication_using_Credintails" description="TC_02_Login with Exisitng User in Application" finished-at="2025-02-14T16:48:59 IST" duration-ms="15476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_loginIntoApplication_using_Credintails -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" started-at="2025-02-14T16:05:13 IST" name="quitDriver" finished-at="2025-02-14T16:05:14 IST" duration-ms="1114" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981]" started-at="2025-02-14T16:48:59 IST" name="quitDriver" finished-at="2025-02-14T16:48:59 IST" duration-ms="182" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=TC_02_signUPIntoApplication_using_Registration status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" started-at="2025-02-14T16:05:13 IST" name="quitDriver" finished-at="2025-02-14T16:05:14 IST" duration-ms="1113" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=TC_02_Direct_Search status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb]" started-at="2025-02-14T16:05:19 IST" name="quitDriver" finished-at="2025-02-14T16:05:20 IST" duration-ms="662" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=TC_02_loginIntoApplication_using_Credintails status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@56f71edb] output={null}]]]>
+                <![CDATA[[TestResult name=TC_02_loginIntoApplication_using_Credintails status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@7e9da981] output={null}]]]>
               </value>
             </param>
           </params>
@@ -219,98 +231,104 @@
         </test-method> <!-- quitDriver -->
       </class> <!-- TestCases.TC_02_MyProtien_validation_BaseTest -->
     </test> <!-- ChromeTests -->
-    <test started-at="2025-02-14T16:05:20 IST" name="FirefoxTests" finished-at="2025-02-14T16:05:45 IST" duration-ms="25324">
+    <test started-at="2025-02-14T16:48:59 IST" name="FirefoxTests" finished-at="2025-02-14T16:49:50 IST" duration-ms="50284">
       <class name="TestCases.TC_03_MyProtien_validation_repeat_BaseTest">
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" started-at="2025-02-14T16:05:20 IST" name="startDriver" finished-at="2025-02-14T16:05:25 IST" duration-ms="4929" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" started-at="2025-02-14T16:48:59 IST" name="startDriver" finished-at="2025-02-14T16:49:01 IST" duration-ms="2211" status="PASS">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" started-at="2025-02-14T16:05:20 IST" name="startDriver" finished-at="2025-02-14T16:05:27 IST" duration-ms="6693" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" started-at="2025-02-14T16:05:20 IST" name="startDriver" finished-at="2025-02-14T16:05:26 IST" duration-ms="5988" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" started-at="2025-02-14T16:05:25 IST" name="TC_03_Direct_Search" description="TC_03_Direct_Search" finished-at="2025-02-14T16:05:44 IST" duration-ms="19529" status="PASS">
+        <test-method signature="TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" started-at="2025-02-14T16:49:01 IST" name="TC_03_Direct_Search" description="TC_03_Direct_Search" finished-at="2025-02-14T16:49:12 IST" duration-ms="10672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_Direct_Search -->
-        <test-method signature="TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" started-at="2025-02-14T16:05:26 IST" name="TC_03_loginIntoApplication_using_Credintails" description="TC_03_Login with Exisitng User in Application" finished-at="2025-02-14T16:05:43 IST" duration-ms="16699" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" started-at="2025-02-14T16:49:12 IST" name="quitDriver" finished-at="2025-02-14T16:49:13 IST" duration-ms="465" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TC_03_Direct_Search status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_03_loginIntoApplication_using_Credintails -->
-        <test-method signature="TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" started-at="2025-02-14T16:05:27 IST" name="TC_03_signUPIntoApplication_using_Registration" description="TC_03_Create New User in Application" finished-at="2025-02-14T16:05:43 IST" duration-ms="15974" status="PASS">
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" started-at="2025-02-14T16:49:13 IST" name="startDriver" finished-at="2025-02-14T16:49:15 IST" duration-ms="2768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" started-at="2025-02-14T16:49:15 IST" name="TC_03_signUPIntoApplication_using_Registration" description="TC_03_Create New User in Application" finished-at="2025-02-14T16:49:29 IST" duration-ms="13564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_signUPIntoApplication_using_Registration -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" started-at="2025-02-14T16:05:43 IST" name="quitDriver" finished-at="2025-02-14T16:05:43 IST" duration-ms="607" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" started-at="2025-02-14T16:49:29 IST" name="quitDriver" finished-at="2025-02-14T16:49:30 IST" duration-ms="675" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=TC_03_loginIntoApplication_using_Credintails status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962] output={null}]]]>
+                <![CDATA[[TestResult name=TC_03_signUPIntoApplication_using_Registration status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" started-at="2025-02-14T16:05:43 IST" name="quitDriver" finished-at="2025-02-14T16:05:43 IST" duration-ms="607" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" started-at="2025-02-14T16:49:33 IST" name="startDriver" finished-at="2025-02-14T16:49:35 IST" duration-ms="1846" status="PASS">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=TC_03_signUPIntoApplication_using_Registration status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962]" started-at="2025-02-14T16:05:44 IST" name="quitDriver" finished-at="2025-02-14T16:05:45 IST" duration-ms="564" status="PASS">
+        </test-method> <!-- startDriver -->
+        <test-method signature="TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" started-at="2025-02-14T16:49:35 IST" name="TC_03_loginIntoApplication_using_Credintails" description="TC_03_Login with Exisitng User in Application" finished-at="2025-02-14T16:49:49 IST" duration-ms="14485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_loginIntoApplication_using_Credintails -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c]" started-at="2025-02-14T16:49:49 IST" name="quitDriver" finished-at="2025-02-14T16:49:50 IST" duration-ms="450" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=TC_03_Direct_Search status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_Direct_Search()[pri:0, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@5a67e962] output={null}]]]>
+                <![CDATA[[TestResult name=TC_03_loginIntoApplication_using_Credintails status=SUCCESS method=TC_03_MyProtien_validation_repeat_BaseTest.TC_03_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_03_MyProtien_validation_repeat_BaseTest@1d25c1c] output={null}]]]>
               </value>
             </param>
           </params>
@@ -319,107 +337,113 @@
         </test-method> <!-- quitDriver -->
       </class> <!-- TestCases.TC_03_MyProtien_validation_repeat_BaseTest -->
       <class name="TestCases.TC_02_MyProtien_validation_BaseTest">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:00 IST" name="setupSuite" finished-at="2025-02-14T16:05:00 IST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:48:15 IST" name="setupSuite" finished-at="2025-02-14T16:48:15 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:20 IST" name="startDriver" finished-at="2025-02-14T16:05:23 IST" duration-ms="3451" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:48:59 IST" name="startDriver" finished-at="2025-02-14T16:49:02 IST" duration-ms="2543" status="PASS">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:20 IST" name="startDriver" finished-at="2025-02-14T16:05:22 IST" duration-ms="2196" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:20 IST" name="startDriver" finished-at="2025-02-14T16:05:23 IST" duration-ms="2919" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:22 IST" name="TC_02_loginIntoApplication_using_Credintails" description="TC_02_Login with Exisitng User in Application" finished-at="2025-02-14T16:05:44 IST" duration-ms="21891" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02_loginIntoApplication_using_Credintails -->
-        <test-method signature="TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:23 IST" name="TC_02_signUPIntoApplication_using_Registration" description="TC_02_Create New User in Application" finished-at="2025-02-14T16:05:44 IST" duration-ms="20932" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02_signUPIntoApplication_using_Registration -->
-        <test-method signature="TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:23 IST" name="TC_02_Direct_Search" description="TC_02_Direct_Search" finished-at="2025-02-14T16:05:45 IST" duration-ms="21249" status="PASS">
+        <test-method signature="TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:49:02 IST" name="TC_02_Direct_Search" description="TC_02_Direct_Search" finished-at="2025-02-14T16:49:12 IST" duration-ms="10348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_Direct_Search -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:44 IST" name="quitDriver" finished-at="2025-02-14T16:05:45 IST" duration-ms="658" status="PASS">
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:49:12 IST" name="quitDriver" finished-at="2025-02-14T16:49:13 IST" duration-ms="464" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=TC_02_signUPIntoApplication_using_Registration status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c] output={null}]]]>
+                <![CDATA[[TestResult name=TC_02_Direct_Search status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:44 IST" name="quitDriver" finished-at="2025-02-14T16:05:45 IST" duration-ms="642" status="PASS">
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:49:13 IST" name="startDriver" finished-at="2025-02-14T16:49:15 IST" duration-ms="2085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:49:15 IST" name="TC_02_signUPIntoApplication_using_Registration" description="TC_02_Create New User in Application" finished-at="2025-02-14T16:49:32 IST" duration-ms="17402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_signUPIntoApplication_using_Registration -->
+        <test-method is-config="true" signature="startDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:49:30 IST" name="startDriver" finished-at="2025-02-14T16:49:32 IST" duration-ms="2777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:49:32 IST" name="quitDriver" finished-at="2025-02-14T16:49:33 IST" duration-ms="642" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=TC_02_loginIntoApplication_using_Credintails status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c] output={null}]]]>
+                <![CDATA[[TestResult name=TC_02_signUPIntoApplication_using_Registration status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_signUPIntoApplication_using_Registration()[pri:1, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:45 IST" name="quitDriver" finished-at="2025-02-14T16:05:45 IST" duration-ms="622" status="PASS">
+        <test-method signature="TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:49:32 IST" name="TC_02_loginIntoApplication_using_Credintails" description="TC_02_Login with Exisitng User in Application" finished-at="2025-02-14T16:49:46 IST" duration-ms="13301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_loginIntoApplication_using_Credintails -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:49:46 IST" name="quitDriver" finished-at="2025-02-14T16:49:46 IST" duration-ms="546" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=TC_02_Direct_Search status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_Direct_Search()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c] output={null}]]]>
+                <![CDATA[[TestResult name=TC_02_loginIntoApplication_using_Credintails status=SUCCESS method=TC_02_MyProtien_validation_BaseTest.TC_02_loginIntoApplication_using_Credintails()[pri:2, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method is-config="true" signature="openHtmlReport()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@6d4c273c]" started-at="2025-02-14T16:05:45 IST" name="openHtmlReport" finished-at="2025-02-14T16:05:46 IST" duration-ms="613" status="PASS">
+        <test-method is-config="true" signature="openHtmlReport()[pri:0, instance:TestCases.TC_02_MyProtien_validation_BaseTest@629ae7e]" started-at="2025-02-14T16:49:50 IST" name="openHtmlReport" finished-at="2025-02-14T16:49:50 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHtmlReport -->

@@ -25,7 +25,7 @@ public class ExtentReporterNG {
 		report.setSystemInfo("User Name", "Deepak");
 		//report.setSystemInfo("Browser", "Chrome");
 		String browser = System.getProperty("browser", BaseTest.getBrowserName());
-	        report.setSystemInfo("Browser", browser != null ? browser : "Unknown");
+	        report.setSystemInfo("Browser", browser != null ? browser : "CHROME & FIREFOX");
 
 	        report.setSystemInfo("OS", System.getProperty("os.name"));
 		report.setSystemInfo("OS", System.getProperty("os.name"));

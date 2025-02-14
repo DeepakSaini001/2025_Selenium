@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="47.106" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="95.462" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="Drivers/chromedriver/mac-arm64/133.0.6943.98/chromedriver"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="sun.awt.enableExtraMouseButtons" value="true"/>
     <property name="java.class.path" value="/Users/deepaksaini/eclipse-workspace/2025_Selenium_Framework/target/test-classes:/Users/deepaksaini/eclipse-workspace/2025_Selenium_Framework/target/classes:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-java/4.20.0/selenium-java-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-api/4.20.0/selenium-api-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.20.0/selenium-chrome-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.20.0/selenium-chromium-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-json/4.20.0/selenium-json-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.20.0/selenium-manager-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.20.0/selenium-devtools-v122-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.20.0/selenium-devtools-v123-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.20.0/selenium-devtools-v124-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.20.0/selenium-devtools-v85-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.20.0/selenium-edge-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.20.0/selenium-firefox-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-http/4.20.0/selenium-http-4.20.0.jar:/Users/deepaksaini/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.20.0/selenium-ie-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.20.0/selenium-remote-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/deepaksaini/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/deepaksaini/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/deepaksaini/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/deepaksaini/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/deepaksaini/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/deepaksaini/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-api/1.37.0/opentelemetry-api-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-context/1.37.0/opentelemetry-context-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.37.0/opentelemetry-exporter-logging-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.37.0/opentelemetry-sdk-common-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.37.0/opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.37.0/opentelemetry-sdk-extension-autoconfigure-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.37.0-alpha/opentelemetry-api-incubator-1.37.0-alpha.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.37.0/opentelemetry-sdk-trace-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.37.0/opentelemetry-sdk-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.37.0/opentelemetry-sdk-metrics-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.37.0/opentelemetry-sdk-logs-1.37.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-os/4.20.0/selenium-os-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.20.0/selenium-safari-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-support/4.20.0/selenium-support-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/deepaksaini/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/deepaksaini/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/deepaksaini/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/deepaksaini/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/deepaksaini/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/deepaksaini/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/deepaksaini/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/deepaksaini/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/deepaksaini/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/deepaksaini/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/deepaksaini/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/deepaksaini/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/deepaksaini/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/deepaksaini/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/deepaksaini/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/deepaksaini/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/deepaksaini/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/deepaksaini/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/deepaksaini/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/deepaksaini/.m2/repository/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar:/Users/deepaksaini/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/deepaksaini/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/deepaksaini/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/deepaksaini/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/deepaksaini/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/deepaksaini/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar:/Users/deepaksaini/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar:/Users/deepaksaini/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar:/Users/deepaksaini/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/Users/deepaksaini/.m2/repository/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/deepaksaini/.m2/repository/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/deepaksaini/.m2/repository/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/deepaksaini/.m2/repository/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/deepaksaini/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/deepaksaini/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/deepaksaini/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/deepaksaini/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/deepaksaini/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/deepaksaini/.m2/repository/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/deepaksaini/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/deepaksaini/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/deepaksaini/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/deepaksaini/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar:/Users/deepaksaini/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/Users/deepaksaini/.m2/repository/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.jar:/Users/deepaksaini/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/deepaksaini/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/deepaksaini/.m2/repository/io/qameta/allure/allure-testng/2.24.0/allure-testng-2.24.0.jar:/Users/deepaksaini/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/deepaksaini/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/deepaksaini/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:/Users/deepaksaini/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/deepaksaini/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/Users/deepaksaini/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/deepaksaini/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/deepaksaini/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:"/>
@@ -15,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/deepaksaini/eclipse-workspace/2025_Selenium_Framework/target/surefire/surefirebooter-20250214160458983_3.jar /Users/deepaksaini/eclipse-workspace/2025_Selenium_Framework/target/surefire 2025-02-14T16-04-58_941-jvmRun1 surefire-20250214160458983_1tmp surefire_0-20250214160458983_2tmp"/>
+    <property name="sun.java.command" value="/Users/deepaksaini/eclipse-workspace/2025_Selenium_Framework/target/surefire/surefirebooter-20250214164814380_3.jar /Users/deepaksaini/eclipse-workspace/2025_Selenium_Framework/target/surefire 2025-02-14T16-48-14_337-jvmRun1 surefire-20250214164814380_1tmp surefire_0-20250214164814380_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/deepaksaini/eclipse-workspace/2025_Selenium_Framework/target/test-classes:/Users/deepaksaini/eclipse-workspace/2025_Selenium_Framework/target/classes:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-java/4.20.0/selenium-java-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-api/4.20.0/selenium-api-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.20.0/selenium-chrome-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.20.0/selenium-chromium-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-json/4.20.0/selenium-json-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.20.0/selenium-manager-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.20.0/selenium-devtools-v122-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.20.0/selenium-devtools-v123-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.20.0/selenium-devtools-v124-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.20.0/selenium-devtools-v85-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.20.0/selenium-edge-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.20.0/selenium-firefox-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-http/4.20.0/selenium-http-4.20.0.jar:/Users/deepaksaini/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.20.0/selenium-ie-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.20.0/selenium-remote-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/deepaksaini/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/deepaksaini/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/deepaksaini/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/deepaksaini/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/deepaksaini/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/deepaksaini/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-api/1.37.0/opentelemetry-api-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-context/1.37.0/opentelemetry-context-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.37.0/opentelemetry-exporter-logging-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.37.0/opentelemetry-sdk-common-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.37.0/opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.37.0/opentelemetry-sdk-extension-autoconfigure-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.37.0-alpha/opentelemetry-api-incubator-1.37.0-alpha.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.37.0/opentelemetry-sdk-trace-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.37.0/opentelemetry-sdk-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.37.0/opentelemetry-sdk-metrics-1.37.0.jar:/Users/deepaksaini/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.37.0/opentelemetry-sdk-logs-1.37.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-os/4.20.0/selenium-os-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.20.0/selenium-safari-driver-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/seleniumhq/selenium/selenium-support/4.20.0/selenium-support-4.20.0.jar:/Users/deepaksaini/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/deepaksaini/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/deepaksaini/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/deepaksaini/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/deepaksaini/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/deepaksaini/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/deepaksaini/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/deepaksaini/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/deepaksaini/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/deepaksaini/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/deepaksaini/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/deepaksaini/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/deepaksaini/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/deepaksaini/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/deepaksaini/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/deepaksaini/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/deepaksaini/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/deepaksaini/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/deepaksaini/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/deepaksaini/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/deepaksaini/.m2/repository/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar:/Users/deepaksaini/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/deepaksaini/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/deepaksaini/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/deepaksaini/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/deepaksaini/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/deepaksaini/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar:/Users/deepaksaini/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar:/Users/deepaksaini/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar:/Users/deepaksaini/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/Users/deepaksaini/.m2/repository/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/deepaksaini/.m2/repository/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/deepaksaini/.m2/repository/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/deepaksaini/.m2/repository/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/deepaksaini/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/deepaksaini/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/deepaksaini/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/deepaksaini/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/deepaksaini/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/deepaksaini/.m2/repository/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/deepaksaini/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/deepaksaini/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/deepaksaini/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/deepaksaini/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/deepaksaini/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar:/Users/deepaksaini/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/Users/deepaksaini/.m2/repository/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.jar:/Users/deepaksaini/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/deepaksaini/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/deepaksaini/.m2/repository/io/qameta/allure/allure-testng/2.24.0/allure-testng-2.24.0.jar:/Users/deepaksaini/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/deepaksaini/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/deepaksaini/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:/Users/deepaksaini/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/deepaksaini/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/Users/deepaksaini/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/deepaksaini/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/deepaksaini/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:"/>
@@ -32,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/deepaksaini/eclipse-workspace/2025_Selenium_Framework/target/surefire/surefirebooter-20250214160458983_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/deepaksaini/eclipse-workspace/2025_Selenium_Framework/target/surefire/surefirebooter-20250214164814380_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
@@ -42,7 +43,6 @@
     <property name="os.version" value="15.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="FIREFOX"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="/Users/deepaksaini/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -62,240 +62,274 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="TC_02_Direct_Search" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="6.984">
+  <testcase name="TC_02_Direct_Search" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="13.179">
     <system-out><![CDATA[Creating new ExtentReports instance...
- INFO [main] (BaseTest.java:67)- Initialize Extent Reports successfully
-Firefox DriverManager initialized.
-Current thread : 38, Driver --> startDriver : FirefoxDriver: firefox on mac (54656210-b91c-4828-8bdd-4d2d204b3758)
+ INFO [main] (BaseTest.java:69)- Initialize Extent Reports successfully
+Chrome DriverManager initialized.
+Current thread : 38, Driver --> startDriver : ChromeDriver: chrome on mac (09c73b4f6d07b85bebb791551bcfd802)
+Current thread : 39, Driver --> startDriver : ChromeDriver: chrome on mac (09c73b4f6d07b85bebb791551bcfd802)
 TestCase Started: TC_03_Direct_Search
- INFO [TestNG-test=ChromeTests-2] (BaseTest.java:93)- Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
-Current thread : 37, Driver --> startDriver : FirefoxDriver: firefox on mac (e5550816-f731-4567-b91f-ec2e00e775ae)
 TestCase Started: TC_02_Direct_Search
- INFO [TestNG-test=ChromeTests-1] (BaseTest.java:93)- Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
-Current thread : 39, Driver --> startDriver : FirefoxDriver: firefox on mac (e5550816-f731-4567-b91f-ec2e00e775ae)
-TestCase Started: TC_02_signUPIntoApplication_using_Registration
- INFO [TestNG-test=ChromeTests-3] (BaseTest.java:93)- Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
-Current thread : 40, Driver --> startDriver : FirefoxDriver: firefox on mac (1e314f56-d9f1-42a5-8639-c6a114630344)
-TestCase Started: TC_03_signUPIntoApplication_using_Registration
- INFO [TestNG-test=ChromeTests-4] (BaseTest.java:93)- Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
-Current thread : 42, Driver --> startDriver : FirefoxDriver: firefox on mac (1e314f56-d9f1-42a5-8639-c6a114630344)
-TestCase Started: TC_03_loginIntoApplication_using_Credintails
- INFO [TestNG-test=ChromeTests-6] (BaseTest.java:93)- Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
-Current thread : 41, Driver --> startDriver : FirefoxDriver: firefox on mac (d4f295b0-e7a9-49a6-a896-d4c68291baaf)
-TestCase Started: TC_02_loginIntoApplication_using_Credintails
- INFO [TestNG-test=ChromeTests-5] (BaseTest.java:93)- Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
- INFO [TestNG-test=ChromeTests-3] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=ChromeTests-2] (BaseTest.java:102)- Driver initialized for test: TC_03_Direct_Search with browser: CHROME
+ INFO [TestNG-test=ChromeTests-1] (BaseTest.java:102)- Driver initialized for test: TC_02_Direct_Search with browser: CHROME
  INFO [TestNG-test=ChromeTests-1] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
  INFO [TestNG-test=ChromeTests-1] (TC_02_MyProtien_validation_BaseTest.java:50)- Direct_Search. 
- INFO [TestNG-test=ChromeTests-3] (TC_02_MyProtien_validation_BaseTest.java:42)- signUPIntoApplication_using_Registration.
+ INFO [TestNG-test=ChromeTests-2] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=ChromeTests-2] (TC_03_MyProtien_validation_repeat_BaseTest.java:50)- Direct_Search. 
 ]]></system-out>
     <system-err><![CDATA[log4j:WARN File option not set for appender [R].
 log4j:WARN Are you using FileAppender instead of ConsoleAppender?
 log4j:ERROR No output stream or file set for the appender named [R].
-[TestNG-test=ChromeTests-6] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
-[TestNG-test=ChromeTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
-[TestNG-test=ChromeTests-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
-[TestNG-test=ChromeTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
-[TestNG-test=ChromeTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
-[TestNG-test=ChromeTests-4] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
-[TestNG-test=ChromeTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
-[TestNG-test=ChromeTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
-[TestNG-test=ChromeTests-4] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
-[TestNG-test=ChromeTests-6] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
-[TestNG-test=ChromeTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
-[TestNG-test=ChromeTests-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
+[TestNG-test=ChromeTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+[TestNG-test=ChromeTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+[TestNG-test=ChromeTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as Drivers/chromedriver/mac-arm64/133.0.6943.98/chromedriver
+[TestNG-test=ChromeTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as Drivers/chromedriver/mac-arm64/133.0.6943.98/chromedriver
+Feb 14, 2025 4:48:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 133
+Feb 14, 2025 4:48:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 133
+Feb 14, 2025 4:48:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 133.0.6943.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 14, 2025 4:48:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 133.0.6943.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="TC_02_Direct_Search" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="17.972">
-    <system-out><![CDATA[Current thread  : 101 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (3c2be09c-4016-4f0e-a944-fc97d4d76209), Date & Time : 2025-Feb-14_16-05-00
- INFO [TestNG-test=FirefoxTests-3] (BaseTest.java:126)- Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+  <testcase name="TC_02_Direct_Search" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="10.349">
+    <system-out><![CDATA[Current thread  : 38 : , Driver --> QuitDriver: ChromeDriver: chrome on mac (7f096a2b4852f01c68f2cc55573db06d), Date & Time : 2025-Feb-14_16-48-15
+ INFO [TestNG-test=ChromeTests-1] (BaseTest.java:136)- Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
+Firefox DriverManager initialized.
+Current thread : 126, Driver --> startDriver : FirefoxDriver: firefox on mac (9d3bd3e7-f03f-4a15-864c-f1019f4a1dfc)
+TestCase Started: TC_03_Direct_Search
+ INFO [TestNG-test=FirefoxTests-2] (BaseTest.java:102)- Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
+Current thread : 125, Driver --> startDriver : FirefoxDriver: firefox on mac (9d3bd3e7-f03f-4a15-864c-f1019f4a1dfc)
+TestCase Started: TC_02_Direct_Search
+ INFO [TestNG-test=FirefoxTests-1] (BaseTest.java:102)- Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
+ INFO [TestNG-test=FirefoxTests-2] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=FirefoxTests-2] (TC_03_MyProtien_validation_repeat_BaseTest.java:50)- Direct_Search. 
  INFO [TestNG-test=FirefoxTests-1] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
  INFO [TestNG-test=FirefoxTests-1] (TC_02_MyProtien_validation_BaseTest.java:50)- Direct_Search. 
 ]]></system-out>
-  </testcase>
-  <testcase name="TC_02_signUPIntoApplication_using_Registration" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="6.993"/>
-  <testcase name="TC_02_signUPIntoApplication_using_Registration" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="17.153">
-    <system-out><![CDATA[Current thread  : 103 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (4422e978-0344-40a4-a85f-6b6621d2064f), Date & Time : 2025-Feb-14_16-05-00
-Current thread  : 105 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (4422e978-0344-40a4-a85f-6b6621d2064f), Date & Time : 2025-Feb-14_16-05-00
- INFO [TestNG-test=FirefoxTests-6] (BaseTest.java:126)- Driver quit successfully for TestCase Name: TC_03_loginIntoApplication_using_Credintails
- INFO [TestNG-test=FirefoxTests-4] (BaseTest.java:126)- Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
- INFO [TestNG-test=FirefoxTests-3] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
- INFO [TestNG-test=FirefoxTests-3] (TC_02_MyProtien_validation_BaseTest.java:42)- signUPIntoApplication_using_Registration.
-]]></system-out>
-  </testcase>
-  <testcase name="TC_02_loginIntoApplication_using_Credintails" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="12.618">
-    <system-out><![CDATA[ INFO [TestNG-test=ChromeTests-5] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
- INFO [TestNG-test=ChromeTests-5] (TC_02_MyProtien_validation_BaseTest.java:33)- loginIntoApplication_using_Credintails 
-Current thread  : 38 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (54656210-b91c-4828-8bdd-4d2d204b3758), Date & Time : 2025-Feb-14_16-05-00
-]]></system-out>
-  </testcase>
-  <testcase name="TC_02_loginIntoApplication_using_Credintails" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="17.372">
-    <system-out><![CDATA[Current thread  : 102 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (3daa286f-cde9-4173-b937-73bc7dd27d1e), Date & Time : 2025-Feb-14_16-05-00
- INFO [TestNG-test=FirefoxTests-5] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
- INFO [TestNG-test=FirefoxTests-5] (TC_02_MyProtien_validation_BaseTest.java:33)- loginIntoApplication_using_Credintails 
-]]></system-out>
-  </testcase>
-  <testcase name="TC_03_Direct_Search" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="12.604">
-    <system-out><![CDATA[Current thread  : 37 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (e5550816-f731-4567-b91f-ec2e00e775ae), Date & Time : 2025-Feb-14_16-05-00
-Current thread  : 39 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (e5550816-f731-4567-b91f-ec2e00e775ae), Date & Time : 2025-Feb-14_16-05-00
- INFO [TestNG-test=ChromeTests-3] (BaseTest.java:126)- Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
-ERROR [TestNG-test=ChromeTests-1] (BaseTest.java:128)- Error while quitting the driver
-org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e5550816-f731-4567-b91f-ec2e00e775ae, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 74321, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
-	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:393)
-	at org.Base.BaseTest.quitDriver(BaseTest.java:125)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-	... 24 more
-Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:376)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	... 3 more
- INFO [TestNG-test=ChromeTests-2] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
- INFO [TestNG-test=ChromeTests-2] (TC_03_MyProtien_validation_repeat_BaseTest.java:50)- Direct_Search. 
-]]></system-out>
-  </testcase>
-  <testcase name="TC_03_Direct_Search" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="17.743">
-    <system-out><![CDATA[Current thread  : 104 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (e79a23b1-d513-4e6b-baa7-100915b9479a), Date & Time : 2025-Feb-14_16-05-00
- INFO [TestNG-test=FirefoxTests-2] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
- INFO [TestNG-test=FirefoxTests-2] (TC_03_MyProtien_validation_repeat_BaseTest.java:50)- Direct_Search. 
-]]></system-out>
-  </testcase>
-  <testcase name="TC_03_signUPIntoApplication_using_Registration" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="13.187">
-    <system-out><![CDATA[Current thread  : 41 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (d4f295b0-e7a9-49a6-a896-d4c68291baaf), Date & Time : 2025-Feb-14_16-05-00
- INFO [TestNG-test=ChromeTests-4] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
- INFO [TestNG-test=ChromeTests-4] (TC_03_MyProtien_validation_repeat_BaseTest.java:42)- signUPIntoApplication_using_Registration.
-]]></system-out>
-  </testcase>
-  <testcase name="TC_03_signUPIntoApplication_using_Registration" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="15.975">
-    <system-out><![CDATA[Current thread  : 42 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (1e314f56-d9f1-42a5-8639-c6a114630344), Date & Time : 2025-Feb-14_16-05-00
- INFO [TestNG-test=ChromeTests-2] (BaseTest.java:126)- Driver quit successfully for TestCase Name: TC_03_Direct_Search
- INFO [TestNG-test=ChromeTests-5] (BaseTest.java:126)- Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
- INFO [TestNG-test=ChromeTests-4] (BaseTest.java:126)- Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
-ERROR [TestNG-test=ChromeTests-6] (BaseTest.java:128)- Error while quitting the driver
-org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [1e314f56-d9f1-42a5-8639-c6a114630344, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 74318, moz:profile: /var/folders/yx/3kwfkj954dd..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
-	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:393)
-	at org.Base.BaseTest.quitDriver(BaseTest.java:125)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-	... 24 more
-Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:376)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	... 3 more
-Current thread : 104, Driver --> startDriver : FirefoxDriver: firefox on mac (e79a23b1-d513-4e6b-baa7-100915b9479a)
-TestCase Started: TC_02_loginIntoApplication_using_Credintails
- INFO [TestNG-test=FirefoxTests-5] (BaseTest.java:93)- Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
-Current thread : 102, Driver --> startDriver : FirefoxDriver: firefox on mac (3daa286f-cde9-4173-b937-73bc7dd27d1e)
-TestCase Started: TC_02_signUPIntoApplication_using_Registration
- INFO [TestNG-test=FirefoxTests-3] (BaseTest.java:93)- Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
-Current thread : 100, Driver --> startDriver : FirefoxDriver: firefox on mac (1ce359eb-42d5-4eb8-9fa7-8609d3300f35)
-TestCase Started: TC_02_Direct_Search
- INFO [TestNG-test=FirefoxTests-1] (BaseTest.java:93)- Driver initialized for test: TC_02_Direct_Search with browser: FIREFOX
-Current thread : 101, Driver --> startDriver : FirefoxDriver: firefox on mac (3c2be09c-4016-4f0e-a944-fc97d4d76209)
-TestCase Started: TC_03_Direct_Search
- INFO [TestNG-test=FirefoxTests-2] (BaseTest.java:93)- Driver initialized for test: TC_03_Direct_Search with browser: FIREFOX
-Current thread : 105, Driver --> startDriver : FirefoxDriver: firefox on mac (4422e978-0344-40a4-a85f-6b6621d2064f)
-TestCase Started: TC_03_loginIntoApplication_using_Credintails
- INFO [TestNG-test=FirefoxTests-6] (BaseTest.java:93)- Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
-Current thread : 103, Driver --> startDriver : FirefoxDriver: firefox on mac (4422e978-0344-40a4-a85f-6b6621d2064f)
-TestCase Started: TC_03_signUPIntoApplication_using_Registration
- INFO [TestNG-test=FirefoxTests-4] (BaseTest.java:93)- Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
- INFO [TestNG-test=FirefoxTests-6] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
- INFO [TestNG-test=FirefoxTests-4] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
- INFO [TestNG-test=FirefoxTests-4] (TC_03_MyProtien_validation_repeat_BaseTest.java:42)- signUPIntoApplication_using_Registration.
- INFO [TestNG-test=FirefoxTests-6] (TC_03_MyProtien_validation_repeat_BaseTest.java:33)- loginIntoApplication_using_Credintails 
-]]></system-out>
-    <system-err><![CDATA[[TestNG-test=FirefoxTests-4] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
-[TestNG-test=FirefoxTests-6] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
-[TestNG-test=FirefoxTests-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
-[TestNG-test=FirefoxTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
+    <system-err><![CDATA[[TestNG-test=FirefoxTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
 [TestNG-test=FirefoxTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
-[TestNG-test=FirefoxTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
+[TestNG-test=FirefoxTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
 [TestNG-test=FirefoxTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
-[TestNG-test=FirefoxTests-4] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
-[TestNG-test=FirefoxTests-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
-[TestNG-test=FirefoxTests-5] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
-[TestNG-test=FirefoxTests-6] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
+]]></system-err>
+  </testcase>
+  <testcase name="TC_02_signUPIntoApplication_using_Registration" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="8.789"/>
+  <testcase name="TC_02_signUPIntoApplication_using_Registration" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="16.736">
+    <system-out><![CDATA[Current thread  : 126 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (7e59b4f5-9ca2-4091-8ee5-1f281b7596bc), Date & Time : 2025-Feb-14_16-48-15
+ INFO [TestNG-test=FirefoxTests-2] (BaseTest.java:136)- Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+ INFO [TestNG-test=FirefoxTests-1] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=FirefoxTests-1] (TC_02_MyProtien_validation_BaseTest.java:42)- signUPIntoApplication_using_Registration.
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=FirefoxTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
+[TestNG-test=FirefoxTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
+]]></system-err>
+  </testcase>
+  <testcase name="TC_02_loginIntoApplication_using_Credintails" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="15.476">
+    <system-out><![CDATA[Current thread  : 39 : , Driver --> QuitDriver: ChromeDriver: chrome on mac (c2760f1c5e8be3bc67b29f248f19b524), Date & Time : 2025-Feb-14_16-48-15
+Current thread  : 38 : , Driver --> QuitDriver: ChromeDriver: chrome on mac (c2760f1c5e8be3bc67b29f248f19b524), Date & Time : 2025-Feb-14_16-48-15
+ERROR [TestNG-test=ChromeTests-2] (BaseTest.java:138)- Error while quitting the driver
+org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:298)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:317)
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:224)
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:60)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:135)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:277)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:288)
+	... 25 more
+ INFO [TestNG-test=ChromeTests-1] (BaseTest.java:136)- Driver quit successfully for TestCase Name: TC_03_signUPIntoApplication_using_Registration
+Current thread : 38, Driver --> startDriver : ChromeDriver: chrome on mac (7f096a2b4852f01c68f2cc55573db06d)
+TestCase Started: TC_03_loginIntoApplication_using_Credintails
+ INFO [TestNG-test=ChromeTests-1] (BaseTest.java:102)- Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: CHROME
+Current thread : 39, Driver --> startDriver : ChromeDriver: chrome on mac (879eec779ac9a92453aeff59f7d6ed11)
+TestCase Started: TC_02_loginIntoApplication_using_Credintails
+ INFO [TestNG-test=ChromeTests-2] (BaseTest.java:102)- Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: CHROME
+ INFO [TestNG-test=ChromeTests-2] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=ChromeTests-2] (TC_02_MyProtien_validation_BaseTest.java:33)- loginIntoApplication_using_Credintails 
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=ChromeTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+[TestNG-test=ChromeTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as Drivers/chromedriver/mac-arm64/133.0.6943.98/chromedriver
+[TestNG-test=ChromeTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+[TestNG-test=ChromeTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as Drivers/chromedriver/mac-arm64/133.0.6943.98/chromedriver
+Feb 14, 2025 4:48:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 133
+Feb 14, 2025 4:48:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 133.0.6943.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 14, 2025 4:48:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 133
+Feb 14, 2025 4:48:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 133.0.6943.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_02_loginIntoApplication_using_Credintails" classname="TestCases.TC_02_MyProtien_validation_BaseTest" time="11.102">
+    <system-out><![CDATA[Current thread  : 125 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (536a5fe2-11e7-4495-af2b-96a1b19386de), Date & Time : 2025-Feb-14_16-48-15
+Current thread : 126, Driver --> startDriver : FirefoxDriver: firefox on mac (44a5c8d1-b888-4bbc-a69f-908cb73f39b0)
+TestCase Started: TC_02_loginIntoApplication_using_Credintails
+ INFO [TestNG-test=FirefoxTests-2] (BaseTest.java:102)- Driver initialized for test: TC_02_loginIntoApplication_using_Credintails with browser: FIREFOX
+ INFO [TestNG-test=FirefoxTests-1] (BaseTest.java:136)- Driver quit successfully for TestCase Name: TC_02_signUPIntoApplication_using_Registration
+Current thread : 125, Driver --> startDriver : FirefoxDriver: firefox on mac (65ce7e05-1843-414b-8763-710dae7792ca)
+TestCase Started: TC_03_loginIntoApplication_using_Credintails
+ INFO [TestNG-test=FirefoxTests-1] (BaseTest.java:102)- Driver initialized for test: TC_03_loginIntoApplication_using_Credintails with browser: FIREFOX
+ INFO [TestNG-test=FirefoxTests-2] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=FirefoxTests-2] (TC_02_MyProtien_validation_BaseTest.java:33)- loginIntoApplication_using_Credintails 
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=FirefoxTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
 [TestNG-test=FirefoxTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
 ]]></system-err>
   </testcase>
-  <testcase name="TC_03_loginIntoApplication_using_Credintails" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="13.194">
-    <system-out><![CDATA[Current thread  : 40 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (1e314f56-d9f1-42a5-8639-c6a114630344), Date & Time : 2025-Feb-14_16-05-00
- INFO [TestNG-test=ChromeTests-6] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
- INFO [TestNG-test=ChromeTests-6] (TC_03_MyProtien_validation_repeat_BaseTest.java:33)- loginIntoApplication_using_Credintails 
+  <testcase name="TC_03_Direct_Search" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="13.181"/>
+  <testcase name="TC_03_Direct_Search" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="10.35"/>
+  <testcase name="TC_03_signUPIntoApplication_using_Registration" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="8.781">
+    <system-out><![CDATA[Current thread  : 39 : , Driver --> QuitDriver: ChromeDriver: chrome on mac (09c73b4f6d07b85bebb791551bcfd802), Date & Time : 2025-Feb-14_16-48-15
+Current thread  : 38 : , Driver --> QuitDriver: ChromeDriver: chrome on mac (09c73b4f6d07b85bebb791551bcfd802), Date & Time : 2025-Feb-14_16-48-15
+ERROR [TestNG-test=ChromeTests-1] (BaseTest.java:138)- Error while quitting the driver
+org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '21.0.5'
+Driver info: driver.version: ChromiumDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:298)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:317)
+	at org.openqa.selenium.devtools.Connection.close(Connection.java:224)
+	at org.openqa.selenium.devtools.DevTools.close(DevTools.java:60)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:135)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Output closed
+	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:277)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:288)
+	... 25 more
+ERROR [TestNG-test=ChromeTests-2] (BaseTest.java:138)- Error while quitting the driver
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.openqa.selenium.remote.Response.getStatus()" is null
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:99)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
+	at org.Base.BaseTest.quitDriver(BaseTest.java:135)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Current thread : 39, Driver --> startDriver : ChromeDriver: chrome on mac (c2760f1c5e8be3bc67b29f248f19b524)
+TestCase Started: TC_02_signUPIntoApplication_using_Registration
+ INFO [TestNG-test=ChromeTests-2] (BaseTest.java:102)- Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: CHROME
+Current thread : 38, Driver --> startDriver : ChromeDriver: chrome on mac (c2760f1c5e8be3bc67b29f248f19b524)
+TestCase Started: TC_03_signUPIntoApplication_using_Registration
+ INFO [TestNG-test=ChromeTests-1] (BaseTest.java:102)- Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: CHROME
+ INFO [TestNG-test=ChromeTests-2] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=ChromeTests-2] (TC_02_MyProtien_validation_BaseTest.java:42)- signUPIntoApplication_using_Registration.
+ INFO [TestNG-test=ChromeTests-1] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=ChromeTests-1] (TC_03_MyProtien_validation_repeat_BaseTest.java:42)- signUPIntoApplication_using_Registration.
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=ChromeTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+[TestNG-test=ChromeTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+[TestNG-test=ChromeTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as Drivers/chromedriver/mac-arm64/133.0.6943.98/chromedriver
+[TestNG-test=ChromeTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as Drivers/chromedriver/mac-arm64/133.0.6943.98/chromedriver
+Feb 14, 2025 4:48:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 133
+Feb 14, 2025 4:48:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 133.0.6943.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 14, 2025 4:48:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 133
+Feb 14, 2025 4:48:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 133.0.6943.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_03_signUPIntoApplication_using_Registration" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="13.569">
+    <system-out><![CDATA[Current thread  : 125 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (9d3bd3e7-f03f-4a15-864c-f1019f4a1dfc), Date & Time : 2025-Feb-14_16-48-15
+Current thread  : 126 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (9d3bd3e7-f03f-4a15-864c-f1019f4a1dfc), Date & Time : 2025-Feb-14_16-48-15
+ INFO [TestNG-test=FirefoxTests-1] (BaseTest.java:136)- Driver quit successfully for TestCase Name: TC_02_Direct_Search
+ INFO [TestNG-test=FirefoxTests-2] (BaseTest.java:136)- Driver quit successfully for TestCase Name: TC_03_Direct_Search
+Current thread : 125, Driver --> startDriver : FirefoxDriver: firefox on mac (536a5fe2-11e7-4495-af2b-96a1b19386de)
+TestCase Started: TC_02_signUPIntoApplication_using_Registration
+ INFO [TestNG-test=FirefoxTests-1] (BaseTest.java:102)- Driver initialized for test: TC_02_signUPIntoApplication_using_Registration with browser: FIREFOX
+Current thread : 126, Driver --> startDriver : FirefoxDriver: firefox on mac (7e59b4f5-9ca2-4091-8ee5-1f281b7596bc)
+TestCase Started: TC_03_signUPIntoApplication_using_Registration
+ INFO [TestNG-test=FirefoxTests-2] (BaseTest.java:102)- Driver initialized for test: TC_03_signUPIntoApplication_using_Registration with browser: FIREFOX
+ INFO [TestNG-test=FirefoxTests-2] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=FirefoxTests-2] (TC_03_MyProtien_validation_repeat_BaseTest.java:42)- signUPIntoApplication_using_Registration.
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=FirefoxTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
+[TestNG-test=FirefoxTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 135)
+[TestNG-test=FirefoxTests-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
+[TestNG-test=FirefoxTests-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as Drivers/geckodriver/mac-arm64/0.35.0/geckodriver
+]]></system-err>
+  </testcase>
+  <testcase name="TC_03_loginIntoApplication_using_Credintails" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="15.879">
+    <system-out><![CDATA[Current thread  : 39 : , Driver --> QuitDriver: ChromeDriver: chrome on mac (879eec779ac9a92453aeff59f7d6ed11), Date & Time : 2025-Feb-14_16-48-15
+ INFO [TestNG-test=ChromeTests-2] (BaseTest.java:136)- Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+ INFO [TestNG-test=ChromeTests-1] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=ChromeTests-1] (TC_03_MyProtien_validation_repeat_BaseTest.java:33)- loginIntoApplication_using_Credintails 
 ]]></system-out>
   </testcase>
-  <testcase name="TC_03_loginIntoApplication_using_Credintails" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="15.977"/>
+  <testcase name="TC_03_loginIntoApplication_using_Credintails" classname="TestCases.TC_03_MyProtien_validation_repeat_BaseTest" time="14.482">
+    <system-out><![CDATA[Current thread  : 126 : , Driver --> QuitDriver: FirefoxDriver: firefox on mac (44a5c8d1-b888-4bbc-a69f-908cb73f39b0), Date & Time : 2025-Feb-14_16-48-15
+ INFO [TestNG-test=FirefoxTests-2] (BaseTest.java:136)- Driver quit successfully for TestCase Name: TC_02_loginIntoApplication_using_Credintails
+ INFO [TestNG-test=FirefoxTests-1] (BasePage.java:35)- Navigating to URL Successfully : https://www.myprotein.co.in/
+ INFO [TestNG-test=FirefoxTests-1] (TC_03_MyProtien_validation_repeat_BaseTest.java:33)- loginIntoApplication_using_Credintails 
+]]></system-out>
+  </testcase>
 </testsuite>
