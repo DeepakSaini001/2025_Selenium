@@ -37,19 +37,22 @@ Install Java JDK 17+
 Install Maven
 Clone the repository
 git clone https://github.com/YOUR_USERNAME/2025_Selenium.git
-cd P1AutomationSuite
+cd 2025_Selenium
 Install dependencies
 mvn clean install
+
 🔹 Running the Tests
 To execute tests, run the following command:
 mvn clean test
 After execution, reports are generated in:
 extent-reports/ExtentReport.html
 reports/ExtentReport.html
+
 🔗 CI/CD Pipeline - GitHub Actions
 The framework runs automated tests on every push or pull request.
 Test reports are uploaded as artifacts.
 Email notifications are sent after execution.
+
 📊 Reporting
 The framework generates Extent Reports with test execution details.
 Failed test cases are captured as screenshots and logged.
